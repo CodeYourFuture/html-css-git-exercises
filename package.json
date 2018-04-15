@@ -1,0 +1,12 @@
+{
+  "name": "html-css-git-exercises",
+  "version": "1.0.0",
+  "description": "HTML, CSS and Git exercises for CodeYourFuture",
+  "author": "CodeYourFuture",
+  "license": "ISC",
+  "scripts": {
+		"serve": "live-server",
+    "1": "live-server --open=1-parent-child",
+    "2": "live-server --open=2-html-attributes"
+  }
+}
