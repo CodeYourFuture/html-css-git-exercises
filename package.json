@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
 		"serve": "live-server",
-    "1": "live-server --open=1-parent-child",
-    "2": "live-server --open=2-html-attributes"
+    "1": "live-server --open=week-1/1-parent-child",
+    "2": "live-server --open=week-1/2-html-attributes"
   }
 }

@@ -49,7 +49,7 @@ npm run 1
 
 This will lauch the sample website for the first exercise in your browser.
 
-Now go back to your code editor. Open the first exercise directory, [1-getting-started](1-getting-started), and find the [readme.md](1-getting-started/readme.md) file.
+Now go back to your code editor. Open the first exercise in the `week-1` directory and find the [readme.md](week-1/1-getting-started/readme.md) file.
 
 ...screenshot...
 
