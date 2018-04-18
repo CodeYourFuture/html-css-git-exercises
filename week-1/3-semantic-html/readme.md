@@ -1,11 +1,12 @@
 # Semantic HTML
 
-There are no semantic tags or attributes being used in the messages for this example. Let's improve it by changing the tags and attributes to semantic HTML code, so that computers can understand what kind of information is being presented. Complete the following steps:
+There are no semantic tags or attributes being used in the messages for this example. Let's improve it by changing the tags and attributes to semantic HTML code, so that computers can understand what kind of information is being presented. Complete the following changes in the `index.html` file:
 
 1. Replace an existing tag with the `<header>` tag to specify the site's header area.
 2. Add the `role="main"` attribute to an existing element to specify the main content on the site.
 3. Replace existing tags with the `<article>` tag to group information relating to a single message.
 4. Extra challenge: use the `<time>` tag with the `datetime=""` attribute to specify the time of each message.
+5. When you are finished, use git to add, commit and push your changes.
 
 _Hint: To complete this exercise, you should modify the HTML elements that are already there. You don't need to create any new elements._
 
