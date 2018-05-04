@@ -1,3 +1,6 @@
+/**
+ * Check if exercise three has been completed
+ */
 (function() {
 	var tests = [
 			{

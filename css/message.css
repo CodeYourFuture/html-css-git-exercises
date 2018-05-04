@@ -1,4 +1,4 @@
-/* Message styling that requires parent-child structure */
+/* Message styling that is easier to override */
 .message {
 	margin: 1rem 3rem 1rem 1rem;
 	padding: 0.5rem;
