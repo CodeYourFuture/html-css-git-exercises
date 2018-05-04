@@ -1,0 +1,105 @@
+/* Base site colors and fonts */
+body,
+html {
+	background: #25262f;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/* Wrap the site content in a centred box */
+.site-wrapper {
+	max-width: 30rem;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	background: #d6d8e1;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.button {
+	padding: 0.25em 0.5em;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	background: #4491db;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Site title and top navigation */
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	color: rgba(255,255,255,0.9);
+	background: #4491db;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.site-header__title {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/* Messages */
+.messages {
+	padding-bottom: 0.5rem;
+}
+
+.message {
+	margin: 1rem 3rem 1rem 1rem;
+	padding: 0.5rem;
+	font-size: 14px;
+	line-height: 1.8em;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+.message__author {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgba(0,0,0,0.6);
+}
+
+.message__content {
+	margin: 0;
+}
+
+.message__time {
+	display: block;
+	font-size: 12px;
+	color: rgba(0,0,0,0.6);
+	text-align: right;
+}
+
+
+/* Messages */
+.message {
+	margin: 1rem 3rem 1rem 1rem;
+	padding: 0.5rem;
+	font-size: 14px;
+	line-height: 1.8em;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+/* Input area to add a new message */
+.add-message {
+	padding: 0.5rem 1rem;
+}
+
+.add-message__input {
+	padding: 0.25em 0.5em;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+	background: #fff;
+}
