@@ -1,0 +1,9 @@
+/* Message styling that targets all child elements of .messages */
+.messages > * {
+	margin: 1rem 3rem 1rem 1rem;
+	padding: 0.5rem;
+	font-size: 14px;
+	line-height: 1.8em;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
