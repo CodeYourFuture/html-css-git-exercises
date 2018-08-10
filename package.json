@@ -10,6 +10,7 @@
     "2": "live-server --open=week-1/2-html-attributes",
     "3": "live-server --open=week-1/3-semantic-html",
     "4": "live-server --open=week-1/4-links-scripts",
-    "5": "live-server --open=week-1/5-css-selectors"
+    "5": "live-server --open=week-1/5-css-selectors",
+    "6": "live-server --open=week-1/6-css-properties"
   }
 }
