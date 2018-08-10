@@ -12,6 +12,7 @@
     "4": "live-server --open=week-1/4-links-scripts",
     "5": "live-server --open=week-1/5-css-selectors",
     "6": "live-server --open=week-1/6-css-properties",
-    "7": "live-server --open=week-1/7-css-box"
+    "7": "live-server --open=week-1/7-css-box",
+    "8": "live-server --open=week-1/8-git-branch"
   }
 }
