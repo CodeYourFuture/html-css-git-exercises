@@ -1,0 +1,49 @@
+/* Try different box model properties below */
+.number {
+	display: inline-block;
+	padding: 1em;
+	border: 1px solid #4491db;
+	border-radius: 4px;
+	margin: 0.5em;
+	background: #fff;
+}
+
+/* Add your own CSS code below */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Do not modify the CSS code below */
+.numbers {
+	padding: 1rem;
+}
+
+.link {
+	color: #4491db;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.message--unread {
+	border-left: 4px solid #4491db;
+}
