@@ -1,0 +1,42 @@
+body {
+	background: #25262f;
+}
+
+.site-wrapper {
+	padding: 2rem;
+	max-width: 1200px;
+	background: rgba(255,255,255,0.9);
+}
+
+.site-header__title {
+	margin: 0 0 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.countries {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.country {
+	display: block;
+	padding: 1rem;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+
+.country + .country {
+	margin-top: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+	.site-wrapper {
+		margin: 2rem auto;
+		border-radius: 3px;
+	}
+}
