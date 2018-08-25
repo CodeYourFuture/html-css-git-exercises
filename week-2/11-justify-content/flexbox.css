@@ -1,0 +1,10 @@
+/* Add your own CSS code below */
+.countries {
+	display: flex;
+}
+.countries--first {
+	justify-content: center;
+}
+.countries--second {
+	justify-content: space-around;
+}
