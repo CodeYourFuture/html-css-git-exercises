@@ -14,6 +14,7 @@
     "6": "live-server --open=week-1/6-css-properties",
     "7": "live-server --open=week-1/7-css-box",
     "8": "live-server --open=week-1/8-git-branch",
-    "9": "live-server --open=week-2/9-media-queries"
+    "9": "live-server --open=week-2/9-media-queries",
+    "10": "live-server --open=week-2/10-flexbox"
   }
 }

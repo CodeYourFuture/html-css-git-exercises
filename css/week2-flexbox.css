@@ -1,0 +1,21 @@
+.site-wrapper {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.countries + .site-header {
+	margin-top: 2rem;
+}
+
+.country {
+	margin-top: 0;
+}
+
+@media (min-width: 800px) {
+	.site-wrapper {
+		max-width: 800px;
+		margin: 2rem auto;
+		border-radius: 3px;
+	}
+}

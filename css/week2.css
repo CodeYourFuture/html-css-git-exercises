@@ -24,14 +24,11 @@ body {
 
 .country {
 	display: block;
+	margin-top: 0.5rem;
 	padding: 1rem;
 	background: #fff;
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 2px;
-}
-
-.country + .country {
-	margin-top: 0.5rem;
 }
 
 @media (min-width: 1200px) {
