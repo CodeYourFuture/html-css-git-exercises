@@ -8,7 +8,7 @@ Your colleagues have already written the .css and .js files. Complete the follow
 2. Add a `<script>` element that includes the `convertUrls.js` file in this exercise's directory. This should be placed at the end of the `<body>` element.
 3. When you are finished, use git to add, commit and push your changes.
 
-_Hint: When you are done, the messages should have the colors and layout like other exercises, and you should be able to click on the URLs ("http://") to go to them._
+_Hint: When you are done, the messages should have the colours and layout like other exercises, and you should be able to click on the URLs ("http://") to go to them._
 
 If you are having trouble, review the following information about including resources into an HTML page.
 
@@ -17,7 +17,7 @@ If you are having trouble, review the following information about including reso
 When building applications for the web, we separate content, presentation and behaviour.
 
 - **Content** is the raw material of the website. It may be an article, a message, a video, or a list of links.
-- **Presentation** is the way that material is displayed. It controls the colors, typography and layout of the content.
+- **Presentation** is the way that material is displayed. It controls the colours, typography and layout of the content.
 - **Behaviour** is anything that reacts to what the user does. When you type a message on Facebook and hit Send, the website is reacting to your behaviour.
 
 To keep our projects organised, we separate these concerns and store them in different files. The content is written in HTML code and saved in .html files. The presentation is written in CSS code and saved in .css files. The behaviour is written in JavaScript code and saved in .js files.
