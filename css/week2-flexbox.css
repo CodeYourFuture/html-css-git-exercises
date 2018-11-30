@@ -12,6 +12,13 @@
 	margin-top: 0;
 }
 
+.countries--tall {
+	min-height: 400px;
+	border-radius: 2px;
+	background: #25262f;
+	padding: 0.5rem;
+}
+
 @media (min-width: 800px) {
 	.site-wrapper {
 		max-width: 800px;

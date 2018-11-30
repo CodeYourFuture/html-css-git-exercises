@@ -16,6 +16,7 @@
     "8": "live-server --open=week-1/8-git-branch",
     "9": "live-server --open=week-2/9-media-queries",
     "10": "live-server --open=week-2/10-flexbox",
-    "11": "live-server --open=week-2/11-justify-content"
+    "11": "live-server --open=week-2/11-justify-content",
+    "12": "live-server --open=week-2/12-align-items"
   }
 }
