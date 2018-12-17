@@ -5,7 +5,6 @@
   "author": "CodeYourFuture",
   "license": "ISC",
   "scripts": {
-		"serve": "live-server",
     "1": "live-server --open=week-1/1-parent-child",
     "2": "live-server --open=week-1/2-html-attributes",
     "3": "live-server --open=week-1/3-semantic-html",
@@ -17,6 +16,10 @@
     "9": "live-server --open=week-2/9-media-queries",
     "10": "live-server --open=week-2/10-flexbox",
     "11": "live-server --open=week-2/11-justify-content",
-    "12": "live-server --open=week-2/12-align-items"
+    "12": "live-server --open=week-2/12-align-items",
+    "serve": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
