@@ -1,6 +1,6 @@
 # Git Merging with Pull Requests
 
-In [exercise 8](/week-1/8-git-branch/readme.md) you created two branches. The links were red in one branch was green in the other, so that you could quickly show your boss both options. She has decided she doesn't like either colour. Instead, she wants the links in a dark orange.
+In [exercise 8](/week-1/8-git-branch) you created two branches. The links were red in one branch and green in the other, so that you could quickly show your boss both options. She has decided she doesn't like either colour. Instead, she wants the links in a dark orange.
 
 In this exercise you will learn how to apply changes you have made in one git branch to another branch. This is called "merging". Follow the instructions below to create a branch, make changes, and merge them to the `master` branch.
 
