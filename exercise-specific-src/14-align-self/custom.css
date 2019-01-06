@@ -2,6 +2,20 @@
     min-height: 200px;
 }
 
-.solution-example {
-	height: 212px;
+
+
+body {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.site-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+    min-width: 540px;
+}
+
+.solution {
+	width: 540px;
 }

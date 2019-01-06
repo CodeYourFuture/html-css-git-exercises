@@ -1,3 +1,14 @@
-.solution-example {
-	height: 62px;
+body {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.site-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.solution {
+	width: 300px;
 }
