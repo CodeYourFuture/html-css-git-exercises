@@ -17,6 +17,8 @@
     "10": "live-server --open=week-2/10-flexbox",
     "11": "live-server --open=week-2/11-justify-content",
     "12": "live-server --open=week-2/12-align-items",
+    "13": "live-server --open=week-2/13-order",
+    "14": "live-server --open=week-2/14-align-self",
     "serve": "live-server"
   },
   "devDependencies": {
