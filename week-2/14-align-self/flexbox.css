@@ -2,12 +2,3 @@
 	display: flex;
 }
 /* Add your own CSS code below */
-
-.countries--first {
-	flex-direction: column;
-	align-items: flex-start;
-}
-
-.countries--first #uganda {
-	align-self: center;
-} 
