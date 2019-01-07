@@ -10,6 +10,6 @@ In this exercise, you will use align-self and align-items to change the position
 3. Do the same thing for the Second and Third list.
 ---
 
-![Example of align-items vs. align-self](../../exercise-specific-src/14-align-self/example1.png)
+![Example of align-items vs. align-self](/images/14-example.png)
 
 You can use the same values for `align-self` as you used for `align-items`.

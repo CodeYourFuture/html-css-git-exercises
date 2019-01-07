@@ -1,8 +1,10 @@
+.countries {
+	display: flex;
+}
+
 .countries--tall {
     min-height: 200px;
 }
-
-
 
 body {
 	display: flex;

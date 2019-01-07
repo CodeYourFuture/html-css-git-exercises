@@ -12,3 +12,7 @@ body {
 .solution {
 	width: 300px;
 }
+
+.countries {
+	display: flex;
+}
