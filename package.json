@@ -19,6 +19,8 @@
     "12": "live-server --open=week-2/12-align-items",
     "13": "live-server --open=week-2/13-order",
     "14": "live-server --open=week-2/14-align-self",
+    "15": "live-server --open=week-2/15-git-merge",
+    "20": "live-server --open=week-3/20-git-conflict",
     "serve": "live-server"
   },
   "devDependencies": {
