@@ -1,0 +1,147 @@
+/* Base site colors and fonts */
+body,
+html {
+	background: #25262f;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Wrap the site content in a centred box */
+.site-wrapper {
+	max-width: 40rem;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	background: #d6d8e1;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+main {
+	padding: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+select {
+	display: block;
+	width: 100%;
+	padding: 0.75em;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 3px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover,
+input[type="month"]:hover,
+input[type="week"]:hover,
+input[type="datetime"]:hover,
+input[type="datetime-local"]:hover,
+input[type="color"]:hover,
+input[type="password"]:hover,
+input[type="number"]:hover,
+input[type="search"]:hover,
+select:hover {
+	border-color: #4491db;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+select:focus {
+	border-color: #4491db;
+	box-shadow: inset 2px 0 0 #4491db;
+}
+
+button {
+	margin-top: 0.75em;
+	padding: 0.75em 1.5em;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 3px;
+	background: #4491db;
+	color: #fff;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+button:hover,
+button:focus {
+	background: #4da2f5;
+}
+
+.shopping-basket__title,
+.checkout__title {
+	margin: 2rem 0 2rem;
+	padding: 0.5em 1em;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	font-size: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.shopping-basket__title {
+	margin-top: 0;
+}
+
+.shopping-basket__items {
+	padding: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	border: 1px solid rgba(0,0,0,0.2);
+	font-size: 0.9rem;
+	border-collapse: collapse;
+}
+
+.shopping-basket__items td,
+.shopping-basket__items th {
+	padding: 0.5em;
+	vertical-align: top;
+	text-align: left;
+}
+
+.shopping-basket__items th {
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.shopping-basket__product {
+	display: flex;
+}
+
+.shopping-basket__product p {
+	margin-top: 0;
+	margin-left: 1em;
+}
+
+.shopping-basket__product img {
+	max-width: 128px;
+	height: auto;
+}
