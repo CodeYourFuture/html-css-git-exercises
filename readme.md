@@ -57,7 +57,7 @@ Read the instructions in this file and follow the steps to complete the exercise
 
 ### Completing more exercises
 
-When you have finished the first exercise, move to the next one. First, go to the Terminal in your code editor, and type `CTRL`+`C` (`CMD`+`C` on a Mac) to stop running the first exercise.
+When you have finished the first exercise, move to the next one. First, go to the Terminal in your code editor, and type `CTRL`+`C` to stop running the first exercise.
 
 To run another exercise, run the following code with the correct number of that exercise:
 
