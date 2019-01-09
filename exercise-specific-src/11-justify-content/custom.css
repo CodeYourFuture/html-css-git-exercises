@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.site-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+    width: 700px;
+}
+
+.solution {
+	max-width: 711px;
+}
+
+.countries {
+    height: 400px;
+    border: black solid;
+}
