@@ -1,4 +1,10 @@
 .countries {
 	display: flex;
 }
+
+.layout-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 /* Add your own CSS code below */

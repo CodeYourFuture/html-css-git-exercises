@@ -1,18 +1,15 @@
 # Item order
 
-The `order` property is used to apply 
+You know what to do by now - see if you can solve as many of the exercises in here!
 
-To do:
+###Bonus exercise:
 
-1. Apply the `align-items` property to the _first_ list of countries, so that all the countries are shown in the middle and left of their container.
-2. Apply the `align-items` property to the _second_ list of countries, so that all the countries are shown at the bottom left of their container.
+The exercise page currently has a problem. If you have a very small screen, both the exercises and the solutions will be very squished:
 
-_Hint: You can review how `align-items` works in [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#article-header-id-7)._
+<img alt="Screenshot of flex-direction column" src="../../exercise-specific-src/15-more-flexbox/example1.gif" height="300">
 
-When you're finished, it should look like the image below.
+But today we also learned about `media-queries`. 
 
-![Screenshot of the country lists with the correct alignment](/images/12-result.png)
+Add code in `flexbox.css` so that when the screen is smaller than `1240px` the containers display like in the below example:
 
-TODO:
-- add order
-- add align self exercises
+<img alt="Screenshot of flex-direction column" src="../../exercise-specific-src/15-more-flexbox/example2.gif" height="300">
