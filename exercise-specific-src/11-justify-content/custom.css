@@ -7,14 +7,13 @@ body {
 .site-wrapper {
     margin-right: 0;
     margin-left: 0;
-    width: 700px;
+    width: 550px;
 }
 
 .solution {
-	max-width: 711px;
+	max-width: 561px;
 }
 
 .countries {
-    height: 400px;
     border: black solid;
 }
