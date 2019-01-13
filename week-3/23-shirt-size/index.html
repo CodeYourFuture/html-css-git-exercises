@@ -3,9 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>19 - Checkout Form - HTML, CSS and Git Exercises</title>
+  <title>23 - T-Shirt Size - HTML, CSS and Git Exercises</title>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/week3-forms.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -24,25 +25,29 @@
   				<tr>
   					<td>
               <div class="shopping-basket__product">
-    						<img src="/images/19/shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
+    						<img src="/images/20/shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
                 <p>CodeYourFuture t-shirt, black</p>
               </div>
   					</td>
-  					<td>Medium</td>
-  					<td>1</td>
-  					<td>£10.00</td>
+  					<td>
+              <!-- Medium -->
+              <form>
+                <label class="screenreader">Choose a size</label>
+                <select>
+                  <option>Small</option>
+                  <option selected>Medium</option>
+                  <option>Large</option>
+                </select>
+              </form>
+            </td>
+  					<td>
+              1
+            </td>
+  					<td>
+              £10.00
+            </td>
   				</tr>
   			</table>
-  		</div>
-
-  		<div class="checkout">
-  			<h2 class="checkout__title">Checkout</h2>
-        <form method="GET" id="checkout-form" class="checkout__form">
-
-          <!-- Add the form fields here -->
-
-          <button type="submit">Complete Purchase</button>
-        </form>
   		</div>
 
     </main>

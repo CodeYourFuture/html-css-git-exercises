@@ -8,7 +8,7 @@ The `<select>` field is used when you want the user to choose an option but you 
 
 When you are done, it should look like the image below.
 
-![Screenshot of the size selection](/images/22/solution-1.png)
+![Screenshot of the size selection](/images/23/solution-1.png)
 
 It looks like you don't need the label "Choose a size". The table already tells us this column is for "Size". However, users who can not see use assistive technology to browse the web. This technology is often called a "screen reader". It reads what is on the screen for them. These tools do not work for forms unless _every_ field has a label.
 
@@ -31,4 +31,4 @@ Follow the steps below.
 
 When you are done, it should look like the image below -- _but the `<label>` should still be in the HTML code._
 
-![Screenshot of the hidden label](/images/22/solution-2.png)
+![Screenshot of the hidden label](/images/23/solution-2.png)

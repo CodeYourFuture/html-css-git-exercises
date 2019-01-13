@@ -10,4 +10,4 @@ The `<textarea>` is used for text that takes up more than one line. In this exer
 
 When you're done, it should look like this.
 
-![Screenshot of the blog comment form solution](/images/20/solution.png)
+![Screenshot of the blog comment form solution](/images/21/solution.png)

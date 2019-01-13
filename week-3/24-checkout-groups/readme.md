@@ -13,4 +13,4 @@ _Hint: Every field needs a unique `name` attribute. You can't have two fields na
 
 When you are done, it should look like this.
 
-![Screenshot of the billing and delivery address fieldsets](/images/23/solution.png)
+![Screenshot of the billing and delivery address fieldsets](/images/24/solution.png)

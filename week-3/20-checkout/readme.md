@@ -13,4 +13,4 @@ In this exercise you will add forms to collect checkout information. Follow the 
 
 When you're done, it should look like this.
 
-![Screenshot of the checkout form solution](/images/19/solution.png)
+![Screenshot of the checkout form solution](/images/20/solution.png)

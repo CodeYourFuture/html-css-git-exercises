@@ -11,11 +11,11 @@ In this exercise, you will add attributes to your form to make some fields requi
 
 When you are done, you should see an error message like below when you try to submit without completing one of the required fields.
 
-![Screenshot of the required checkout fields](/images/24/solution-required.gif)
+![Screenshot of the required checkout fields](/images/25/solution-required.gif)
 
 You should not be able to type anything in the Country field. And the delivery options should look like this.
 
-![Screenshot of the disabled delivery options](/images/24/solution-delivery.png)
+![Screenshot of the disabled delivery options](/images/25/solution-delivery.png)
 
 **Extra Credit**
 
