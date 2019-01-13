@@ -87,11 +87,21 @@ textarea:focus {
 	box-shadow: inset 2px 0 0 #4491db;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: middle;
+}
+
 fieldset {
 	margin-left: 0;
 	margin-right: 0;
+	padding: 1em;
 	border: 1px solid rgba(0,0,0,0.5);
 	border-radius: 3px;
+}
+
+fieldset + fieldset {
+	margin-top: 2rem;
 }
 
 legend {

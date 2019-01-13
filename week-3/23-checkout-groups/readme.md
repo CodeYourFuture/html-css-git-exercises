@@ -1,43 +1,16 @@
 # Checkout Groups - Fieldset
 
-Note: fieldset has been used in checkboxes, so update text to reflect it's already been mentioned, but this is a different usecase.
+In [exercise 21](/week-3/21-dietary), you used `<fieldset>` and `<legend>` to group checkboxes together. In this exercise, you will use these tags to describe a group of fields that are related to each other.
 
-The `<fieldset>` element is used to group together other form elements that are expected to be "related" to each other.
+To send the t-shirt to your customer you need to know where they want it to be delivered. This may be different from the address on the card they use to make payment. In this exercise, you will create two groups of fields: one for the billing address and one for the delivery address.
 
-A `<fieldset>` element is normally by a `<legend>` element that provides a brief description for the grouping.
+1. Find the line in the `index.html` page where it says `<!-- Add the form fields here -->`.
+2. Below this line, add a `<fieldset>` with a `<legend>` that says "Billing Address".
+3. Add text input fields nested inside of the `<fieldset>`. Add fields for the following: Address Line 1, Address Line 2, Postcode and City.
+4. Repeat steps 2 and 3 for a set of fields named "Delivery Address".
 
-An example of this would be, in an online shop checkout, separating the delivery address fields and cardholder address fields onto two different fieldsets.
+_Hint: Every field needs a unique `name` attribute. You can't have two fields named `postcode`, so you will need to name each set differently._
 
-```
-<form method="POST" action="/checkout">
-	<fieldset name="cardholder-address">
-		<legend>Cardholder address:</legend>
-		<label for="cardholder-address-1">Address line 1:</label>
-		<input type="text" id="cardholder-address-1" name="cardholder-address1" value required>
-		<label for="cardholder-address-2">Address line 2:</label>
-		<input type="text" id="cardholder-address-2" name="cardholder-address2" value>
-		<label for="cardholder-postcode">Postcode:</label>
-		<input type="text" id="cardholder-postcode" name="cardholder-postcode" value required>
-		<label for="cardholder-town">Town:</label>
-		<input type="text" id="cardholder-town" name="cardholder-town" value required>
-	</fieldset>
+When you are done, it should look like this.
 
-	<fieldset name="delivery-address">
-		<legend>Delivery address:</legend>
-		<label for="delivery-address-1">Address line 1:</label>
-		<input type="text" id="delivery-address-1" name="delivery-address1" value required>
-		<label for="delivery-address-2">Address line 2:</label>
-		<input type="text" id="delivery-address-2" name="delivery-address2" value>
-		<label for="delivery-postcode">Postcode:</label>
-		<input type="text" id="delivery-postcode" name="delivery-postcode" value required>
-		<label for="delivery-town">Town:</label>
-		<input type="text" id="delivery-town" name="delivery-town" value required>
-	</fieldset>
-
-	<input type="submit" value="Submit">
-</form>
-```
-
-The above example would look like this:
-
-![Fieldset example](../../img/fieldset-example.png)
+![Screenshot of the billing and delivery address fieldsets](/images/23/solution.png)
