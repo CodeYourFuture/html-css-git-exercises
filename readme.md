@@ -67,7 +67,7 @@ npm run 1
 
 This will launch the sample website for the first exercise in your browser.
 
-Now go back to your code editor. Open the first exercise in the `week-1` directory and find the [readme.md](week-1/1-getting-started/readme.md) file.
+Now go back to your code editor. Open the first exercise in the `week-1` directory and find the `readme.md` file.
 
 ![Screenshot showing how to open a preview of the readme for the first exercise](/images/fork-open-readme.gif)
 

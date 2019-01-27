@@ -8,6 +8,6 @@ There are no semantic tags or attributes being used in the messages for this exa
 4. Extra challenge: read [this article about the `<time>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time) and the `datetime=""` attribute. Use this to specify the time of each message.
 5. When you are finished, use git to add, commit and push your changes.
 
-_Hint: To complete this exercise, you should modify the HTML elements that are already there. You don't need to create any new elements._
+_Hint: To complete this exercise, you should modify the HTML tags without removing the attributes that are already there. For example, if you wanted to change `<div class="article></div>` to an `<article>` tag, you would use `<article class="article"></article>`. The `class` attribute should not be removed._
 
 If you are having trouble, you can review [read this guide to the semantic tags](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantic_elements).
