@@ -1,6 +1,6 @@
 # Checkout Form
 
-This customer is ready to buy a CodeYourFuture t-shirt. We need ask them who they are and how we can contact them so that we can send them the t-shirt.
+This customer is ready to buy a CodeYourFuture t-shirt. We need to ask them who they are and how we can contact them so that we can send them the t-shirt.
 
 In this exercise you will add forms to collect checkout information. Follow the steps below to complete this exercise.
 
