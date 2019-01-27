@@ -1,37 +1,37 @@
 body {
-	background: #25262f;
+  background: #25262f;
 }
 
 .site-wrapper {
-	max-width: 90vw;
-	margin: 5vw auto;
-	padding: 1rem;
-	background: #d6d8e1;
-	border-radius: 3px;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-	box-sizing: border-box;
+  max-width: 90vw;
+  margin: 5vw auto;
+  padding: 1rem;
+  background: #d6d8e1;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .site-header__title {
-	margin: 0 0 2rem;
-	font-weight: 300;
-	font-size: 2rem;
+  margin: 0 0 2rem;
+  font-weight: 300;
+  font-size: 2rem;
 }
 
 .countries {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .country {
-	display: block;
-	padding: 1rem;
-	background: #fff;
-	border: 1px solid rgba(0,0,0,0.2);
-	border-radius: 2px;
+  display: block;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
 }
 
 .country + .country {
-	margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }

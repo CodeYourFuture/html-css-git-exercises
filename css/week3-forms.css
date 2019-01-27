@@ -1,27 +1,27 @@
 /* Base site colors and fonts */
 body,
 html {
-	background: #25262f;
-	font-size: 16px;
+  background: #25262f;
+  font-size: 16px;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Wrap the site content in a centred box */
 .site-wrapper {
-	max-width: 40rem;
-	margin-top: 5rem;
-	margin-left: auto;
-	margin-right: auto;
-	background: #d6d8e1;
-	border-radius: 3px;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  max-width: 40rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #d6d8e1;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 main {
-	padding: 1rem;
+  padding: 1rem;
 }
 
 input[type="text"],
@@ -39,15 +39,15 @@ input[type="number"],
 input[type="search"],
 select,
 textarea {
-	display: block;
-	width: 100%;
-	padding: 0.75em;
-	border: 1px solid rgba(0,0,0,0.5);
-	border-radius: 3px;
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 textarea {
-	min-height: 10em;
+  min-height: 10em;
 }
 
 input[type="text"]:hover,
@@ -65,7 +65,7 @@ input[type="number"]:hover,
 input[type="search"]:hover,
 select:hover,
 textarea:hover {
-	border-color: #4491db;
+  border-color: #4491db;
 }
 
 input[type="text"]:focus,
@@ -83,91 +83,92 @@ input[type="number"]:focus,
 input[type="search"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #4491db;
-	box-shadow: inset 2px 0 0 #4491db;
+  border-color: #4491db;
+  box-shadow: inset 2px 0 0 #4491db;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-	margin-left: 0;
-	margin-right: 0;
-	padding: 1em;
-	border: 1px solid rgba(0,0,0,0.5);
-	border-radius: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 fieldset + fieldset {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 legend {
-	padding: 0 1em;
+  padding: 0 1em;
 }
 
 button {
-	margin-top: 0.75em;
-	padding: 0.75em 1.5em;
-	border: 1px solid rgba(0,0,0,0.5);
-	border-radius: 3px;
-	background: #4491db;
-	color: #fff;
-	font-weight: 600;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  margin-top: 0.75em;
+  padding: 0.75em 1.5em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  background: #4491db;
+  color: #fff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
 }
 
 button:hover,
 button:focus {
-	background: #4da2f5;
+  background: #4da2f5;
 }
 
 .shopping-basket__title,
 .checkout__title {
-	margin: 2rem 0 2rem;
-	padding: 0.5em 1em;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
-	font-size: 1rem;
-	text-align: center;
-	text-transform: uppercase;
+  margin: 2rem 0 2rem;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .shopping-basket__title {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .shopping-basket__items {
-	padding: 0;
-	width: 100%;
-	background: rgba(255,255,255,0.5);
-	border: 1px solid rgba(0,0,0,0.2);
-	font-size: 0.9rem;
-	border-collapse: collapse;
+  padding: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  border-collapse: collapse;
 }
 
 .shopping-basket__items td,
 .shopping-basket__items th {
-	padding: 0.5em;
-	vertical-align: top;
-	text-align: left;
+  padding: 0.5em;
+  vertical-align: top;
+  text-align: left;
 }
 
 .shopping-basket__items th {
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .shopping-basket__product {
-	display: flex;
+  display: flex;
 }
 
 .shopping-basket__product p {
-	margin-top: 0;
-	margin-left: 1em;
+  margin-top: 0;
+  margin-left: 1em;
 }
 
 .shopping-basket__product img {
-	max-width: 128px;
-	height: auto;
+  max-width: 128px;
+  height: auto;
 }
