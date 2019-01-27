@@ -1,78 +1,79 @@
 body,
 html {
-	background: #25262f;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
-	font-size: 16px;
-	line-height: 1.5em;
+  background: #25262f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 .site-wrapper {
-	max-width: 1200px;
-	width: 90%;
-	margin-top: 2vh;
-	margin-left: auto;
-	margin-right: auto;
-	background: #fff;
-	border-radius: 3px;
-	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  max-width: 1200px;
+  width: 90%;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .site-header {
-	position: relative;
-	top: -1px;
-	padding-top: 1px;
+  position: relative;
+  top: -1px;
+  padding-top: 1px;
 }
 
 .site-header__logo {
-	display: block;
-	margin: 1rem;
-	width: 50px;
-	height: auto;
+  display: block;
+  margin: 1rem;
+  width: 50px;
+  height: auto;
 }
 
 .site-header__nav {
-	margin: 1rem 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
 .site-header__navItem {
-	display: block;
-	padding: 0.25em 0.5em;
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #007ab2;
-	border: 1px solid transparent;
-	border-radius: 3px;
+  display: block;
+  padding: 0.25em 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #007ab2;
+  border: 1px solid transparent;
+  border-radius: 3px;
 }
 
 .site-header__navItem:focus,
 .site-header__navItem:hover {
-	border: 1px solid #007ab2;
-	outline: 0;
+  border: 1px solid #007ab2;
+  outline: 0;
 }
 
 .site-header__navItem--highlighted {
-	color: #d00a6c;
+  color: #d00a6c;
 }
 
 .site-header__navItem--highlighted:hover,
 .site-header__navItem--highlighted:focus {
-	border-color: #d00a6c;
+  border-color: #d00a6c;
 }
 
 .site-header__checkout {
-	display: inline-block;
-	margin: 0.5rem;
-	padding: 0.5em 1em;
-	border: 1px solid #007ab2;
-	border-radius: 3px;
-	background: #007ab2;
-	color: #fff;
-	text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5em 1em;
+  border: 1px solid #007ab2;
+  border-radius: 3px;
+  background: #007ab2;
+  color: #fff;
+  text-decoration: none;
 }
 
 .site-header__checkout:focus,
 .site-header__checkout:hover {
-	background: #009cd4;
-	outline: 0;
+  background: #009cd4;
+  outline: 0;
 }

@@ -1,27 +1,27 @@
 .countries {
-	margin: 0;
-	padding: 1rem;
-	list-style: none;
-	border-bottom: 1px solid #bbb;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  border-bottom: 1px solid #bbb;
 }
 
 .country {
-	margin: 1px 0;
-	padding: 0.5rem;
-	background: #fff;
-	border: 1px solid rgba(0,0,0,0.2);
+  margin: 1px 0;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .pages {
-	margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .pages__page {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .pages__showing {
-	display: inline-block;
-	padding: 1rem;
-	float: right;
+  display: inline-block;
+  padding: 1rem;
+  float: right;
 }

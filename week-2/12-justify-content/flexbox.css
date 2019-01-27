@@ -1,9 +1,9 @@
 .countries {
-	display: flex;
+  display: flex;
 }
 
 .countries--second .country {
-	padding: 0.5em;
+  padding: 0.5em;
 }
 
 /* Add your own CSS code below */
