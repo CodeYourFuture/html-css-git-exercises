@@ -34,9 +34,13 @@
     "27": "live-server --open=week-3/27-attributes",
     "28": "live-server --open=week-3/28-git-conflict",
     "29": "live-server --open=week-3/29-combined-skills",
+    "precommit": "pretty-quick --staged",
     "serve": "live-server"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0"
   }
 }
