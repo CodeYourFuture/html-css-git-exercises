@@ -1,1 +1,10 @@
 /* Add your CSS code below */
+.link {
+  color: red;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
