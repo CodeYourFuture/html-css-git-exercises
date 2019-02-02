@@ -18,6 +18,9 @@
 .message__content {
   margin: 0;
 }
+.message__content img {
+  max-width: 100%;
+}
 
 .message__time {
   display: block;
