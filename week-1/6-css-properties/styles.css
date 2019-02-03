@@ -1,1 +1,18 @@
 /* Add your CSS code below */
+.link {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+  color: red;
+}
+.message__time--old {
+  opacity: 0.5;
+  --border-left-color: blue;
+  --border: 3;
+}
+.message {
+  line-height: 2.5;
+}
