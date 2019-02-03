@@ -20,8 +20,6 @@ a:link {
   border-left: 3px solid blue;
 }
 
-/*.message__yesterday {
-  opacity: 0.5;
-}*/
-
-/*CSS Properties*/
+.message:first-child {
+  opacity: 0.6;
+}
