@@ -2,4 +2,19 @@
 .luke {
   color: red;
   font-weight: bold;
+  text-decoration: none;
+}
+.message__time {
+  font-size: 0.9rem;
+}
+
+.message--unread {
+  border: solid;
+  border-left-color: blue;
+}
+.message-transperent {
+  opacity: 0.5;
+}
+.message__content {
+  line-height: 40px;
 }
