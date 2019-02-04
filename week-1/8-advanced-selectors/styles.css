@@ -1,1 +1,17 @@
 /* Try different box model properties below */
+p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.site-footer {
+  font-size: 12px;
+  text-align: center;
+}
+.message__content {
+  color: black;
+}
+
+.message--unread {
+  box-shadow: 4px 4px 0 #dba944;
+}
