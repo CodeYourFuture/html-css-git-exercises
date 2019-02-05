@@ -1,1 +1,13 @@
 /* Try different box model properties below */
+.wontext {
+  color: white;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+}
+.lastms {
+  font-size: 12px;
+  text-align: center;
+}
+.won {
+  box-shadow: 4px 4px 0 #dba944;
+}
