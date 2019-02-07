@@ -9,6 +9,6 @@
   font-size: 12px;
   text-align: center;
 }
-.message--unread {
+.messages .message:last-child {
   box-shadow: 4px 4px 0 #dba944;
 }
