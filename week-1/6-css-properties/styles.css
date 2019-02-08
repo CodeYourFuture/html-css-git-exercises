@@ -7,3 +7,12 @@ a {
 .message__time {
   font-size: 0.9rem;
 }
+.message {
+  border-left: dotted;
+  border-left-color: blue;
+  line-height: 3.0;
+ 
+p {
+  opacity: 0.5;
+  
+}
