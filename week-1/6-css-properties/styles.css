@@ -8,11 +8,8 @@ a {
   font-size: 0.9rem;
 }
 .message {
-  border-left: dotted;
+  border-left: solid;
   border-left-color: blue;
-  line-height: 3.0;
- 
-p {
+  line-height: 3;
   opacity: 0.5;
-  
 }
