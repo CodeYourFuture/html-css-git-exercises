@@ -1,1 +1,17 @@
 /* Add your CSS code below */
+.link link--map {
+  color: red;
+  font-weight: bold;
+}
+.message__time {
+  font-size: 0.9em;
+}
+.message message--unread {
+  border-left-color: blue;
+}
+.message__time message__time--old {
+  color: transparent;
+}
+div {
+  line-height: 10px;
+}
