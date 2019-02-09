@@ -3,3 +3,26 @@
 }
 
 /* Add your own CSS code below */
+.countries--first .country--croatia {
+  order: -1;
+}
+
+.countries--first .country--brazil {
+  order: 3;
+}
+
+.countries--second .country--croatia {
+  order: -1;
+}
+
+.countries--second .country--uganda {
+  order: 5;
+}
+
+.countries--second .country--brazil {
+  order: 4;
+}
+
+.countries--third {
+  flex-direction: row-reverse;
+}
