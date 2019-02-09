@@ -1,1 +1,11 @@
 /* Add your own CSS code below */
+@media only screen and (min-width: 768px) {
+  .countries {
+    columns: 2;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .countries {
+    columns: 3;
+  }
+}
