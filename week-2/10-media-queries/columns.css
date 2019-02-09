@@ -1,1 +1,11 @@
 /* Add your own CSS code below */
+@media screen and {
+  .counties {
+    column: 2;
+  }
+}
+@media screen and {
+  .counties {
+    column: 3;
+  }
+}
