@@ -10,7 +10,10 @@
 .countries--second {
   align-items: center;
 }
-.countries--second .country--ethiopia {
+/*.align-end {
+  align-self: flex-end;
+}*/
+countries--second .country--ethiopia {
   align-self: flex-end;
 }
 .countries--third {
@@ -33,3 +36,5 @@
 .countries--fourth .country--uganda {
   align-self: center;
 }
+/*to try a different way of selecting many itemes a time , we create a  new selector at the HTML index 
+called "align-end"*/
