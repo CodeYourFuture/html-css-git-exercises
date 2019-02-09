@@ -1,9 +1,17 @@
-.countries {
+.countries--first {
   display: flex;
+  justify-content: flex-end;
 }
 
-.countries--second .country {
-  padding: 0.5em;
+.countries--second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* Add your own CSS code below */
