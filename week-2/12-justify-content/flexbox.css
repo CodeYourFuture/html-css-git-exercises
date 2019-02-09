@@ -14,4 +14,10 @@
   justify-content: flex-end;
 }
 
+.countries--fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
 /* Add your own CSS code below */
