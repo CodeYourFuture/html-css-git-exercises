@@ -3,3 +3,19 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.countries--second {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.countries--third {
+  justify-content: center;
+  align-items: flex-start;
+}
+.country--brazil {
+  align-self: flex-end;
+}
