@@ -1,5 +1,51 @@
 .countries {
   display: flex;
 }
+.countries--first .country--croatia {
+  order: 1;
+}
+.countries--first .country--ethiopia {
+  order: 2;
+}
+.countries--first .country--laos {
+  order: 3;
+}
+.countries--first .country--uganda {
+  order: 4;
+}
+.countries--first .country--brazil {
+  order: 5;
+}
 
+.countries--second .country--croatia {
+  order: 1;
+}
+.countries--second .country--ethiopia {
+  order: 2;
+}
+.countries--second .country--laos {
+  order: 3;
+}
+.countries--second .country--uganda {
+  order: 5;
+}
+.countries--second .country--brazil {
+  order: 4;
+}
+
+.countries--third .country--uganda {
+  order: 1;
+}
+.countries--third .country--laos {
+  order: 2;
+}
+.countries--third .country--ethiopia {
+  order: 3;
+}
+.countries--third .country--croatia {
+  order: 4;
+}
+.countries--third .country--brazil {
+  order: 5;
+}
 /* Add your own CSS code below */
