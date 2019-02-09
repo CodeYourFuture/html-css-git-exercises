@@ -3,7 +3,12 @@
 }
 
 /* Add your own CSS code below */
-.countries--first {
+.country--brazil {
   display: flex;
-  order: < 2 >;
+  order: 1;
+}
+
+.countries--second .country--uganda {
+  display: flex;
+  order: 2;
 }
