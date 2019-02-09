@@ -1,5 +1,14 @@
 .countries {
   display: flex;
 }
+.countries--first .country--brazil {
+  order: 1;
+}
 
 /* Add your own CSS code below */
+.countries--second .country--croatia {
+  order: -3;
+}
+.countries--third .country--brazil {
+  order: 2;
+}
