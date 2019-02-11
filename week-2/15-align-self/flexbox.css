@@ -28,6 +28,14 @@
 .countries--third .country--uganda {
   align-self: flex-start;
 }
-/* .countries--fourth {
-  align-self: ;
-} */
+.countries--fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.countries--fourth .country--uganda {
+  align-self: center;
+}
+.countries--fourth .country--ethiopia {
+  align-self: flex-start;
+}
