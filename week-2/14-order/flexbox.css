@@ -3,3 +3,38 @@
 }
 
 /* Add your own CSS code below */
+.countries--first .country--brazil {
+  order: 1;
+}
+.countries--second .country--croatia {
+  order: -1;
+}
+.countries--second .country--ethiopia {
+  order: -1;
+}
+.countries--second .country--laos {
+  order: -1;
+}
+
+.countries--third {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* This is a longer way to solve the problem
+.countries--third .country--uganda {
+  order: 1;
+}
+.countries--third .country--laos {
+  order: 2;
+}
+.countries--third .country--ethiopia {
+  order: 3;
+}
+.countries--third .country--croatia {
+  order: 4;
+}
+.countries--third .country--brazil {
+  order: 5;
+}
+*/
