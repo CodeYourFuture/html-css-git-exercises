@@ -1,12 +1,27 @@
 /* Add your CSS code below */
 a {
+<<<<<<< HEAD
   color: red;
   font-weight: bold;
+=======
+  font-weight: bold;
+  color: red;
+>>>>>>> ff6798e340942d79c68d4306965aad4c2d3dfc4e
   text-decoration: none;
 }
 .message__time {
   font-size: 0.9rem;
 }
 .message--unread {
+<<<<<<< HEAD
   border-left: 1px solid blue;
+=======
+  border-left: 1.5px solid blue;
+}
+.message__time--old {
+  opacity: 0.5;
+}
+.message__content {
+  line-height: 2rem;
+>>>>>>> ff6798e340942d79c68d4306965aad4c2d3dfc4e
 }
