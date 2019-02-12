@@ -12,34 +12,34 @@
 
   <body>
     <div class="site-wrapper">
-      <header role="banner" class="site-header">
-        <div class="site-header__title">Messages</div>
+      <header class="site-header">
+        <h1 class="site-header__title">Messages</h1>
       </header>
       <main role="main" class="messages">
         <article class="message">
-          <div class="message__author">Won</div>
+          <h1 class="message__author">Won</h1>
           <p class="message__content">Where should we meet later?</p>
-          <div class="message__time">
-            <time datetime="2018-03-25T19:25"> Mar 25, 2018 7:25pm</time>
-          </div>
+          <time class="message__time" datetime="2018-03-25 19:25">Mar 25, 2018 7:25pm</time>
         </article>
         <article class="message">
-          <div class="message__author">Luke</div>
+          <h1 class="message__author">Luke</h1>
           <p class="message__content">
-            Let's meet at the iCafe in Merchant City. https://goo.gl/maps/aza4h9nUBhn
+            Let's meet at the <a href="https://goo.gl/maps/aza4h9nUBhn">iCafe</a> in Merchant City.
           </p>
-          <div class="message__time">
-            <time datetime="2018-03-25T19:35"> Mar 25, 2018 7:35pm</time>
-          </div>
+          <time datetime="2018-03-25 19:35" class="message__time"> Mar 25, 2018 7:35pm</time>
         </article>
         <article class="message">
-          <div class="message__author">Won</div>
+          <h1 class="message__author">Won</h1>
           <p class="message__content">
-            Ok! https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif
+            Ok!
+            <img
+              src="https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif"
+              alt="see you soon"
+              height="60"
+              width="60"
+            />
           </p>
-          <div class="message__time">
-            <time datetime="2018-03-25T19:38"> Mar 25, 2018 7:38pm</time>
-          </div>
+          <time class="message__time" datetime="2018-03-25 19:38">Mar 25, 2018 7:38pm</time>
         </article>
       </main>
       <div id="result" class="result"></div>
@@ -47,3 +47,4 @@
     <script defer src="/js/3-result.js"></script>
   </body>
 </html>
+/*Semantic HTML*/
