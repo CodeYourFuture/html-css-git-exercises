@@ -12,3 +12,9 @@
   display: flex;
   order: 2;
 }
+.countries--third {
+  flex-direction: row-reverse;
+}
+.countries--third .country--brazil {
+  order: -1;
+}
