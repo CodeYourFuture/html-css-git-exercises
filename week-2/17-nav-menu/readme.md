@@ -10,4 +10,4 @@ Follow the steps below to complete this exercise. _Do not modify the index.html 
 
 When you complete this exercise, you should be able to change the screen size and see the header change like the image below.
 
-![Screenshot of the solution](/images/16/solution.gif).
+![Screenshot of the solution](/images/17/solution.gif).
