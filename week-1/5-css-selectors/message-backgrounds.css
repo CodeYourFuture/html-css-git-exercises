@@ -1,1 +1,9 @@
-/* Add your CSS code below */
+.message__author {
+  background: red;
+}
+.message__content {
+  background: cadetblue;
+}
+.message__time {
+  background: yellow;
+}
