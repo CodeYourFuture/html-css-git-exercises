@@ -5,5 +5,12 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   margin: 0.5em;
-  background: #fff;
+  background: white;
+}
+.countries {
+  border: 10px solid whitesmoke;
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+  margin: 0.25em;
+  background: white;
 }
