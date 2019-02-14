@@ -3,27 +3,41 @@
 }
 
 /* Add your own CSS code below */
-@media only screen and (min-width: 480px) {
-  .site-header__nav {
-    display: flex;
-    flex-direction: row;
-  }
+.countries--first {
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-@media only screen and (min-width: 700px) {
-  .site-header {
-    display: flex;
-    flex-direction: row;
-  }
+.countries--second {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
 }
-@media only screen and (min-width: 992px) {
-  .site-header {
-    display: flex;
-    flex-direction: row;
-  }
-  .site-header__nav {
-    align-items: center;
-  }
-  .site-header__checkout {
-    order: 1;
-  }
+.countries--third {
+  justify-content: center;
+  align-items: flex-start;
+}
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+.countries--fourth .country--laos {
+  align-self: center;
+}
+.countries--fifth {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.countries--fifth .country--laos {
+  order: 1;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
 }
