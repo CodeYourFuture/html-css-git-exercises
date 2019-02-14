@@ -8,9 +8,9 @@
   background: white;
 }
 .countries {
-  border: 1px solid white;
+  border: 10px solid whitesmoke;
   padding: 0.25em 0.5em;
-  border-radius: 3px;
+  border-radius: 5px;
   margin: 0.25em;
   background: white;
 }
