@@ -4,7 +4,7 @@
 
 a {
   background: red;
-  font: bold;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -16,19 +16,19 @@ a {
 
 /*3. Put a blue border on the left side of the last message to show it is unread.*/
 
-.messagemessage--unread {
+.message--unread {
   border-style: solid;
   border-left-width: 10px blue;
 }
 
 /*4. Make yesterday's message partially transparent to show it is old.*/
 
-.message__time message__time--old {
-  opacity: 0.6;
+.messages :first-child {
+  opacity: 0.3;
 }
 
 /*5. Increase the space between each line in a message.*/
 
-.messages {
-  line-height: 10px;
+.messages .message__content {
+  line-height: 3;
 }

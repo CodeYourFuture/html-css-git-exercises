@@ -1,9 +1,9 @@
-.message__author {
+#first-message {
   background: red;
 }
-.message__content {
+article {
   background: cadetblue;
 }
-.message__time {
+.message--latest {
   background: yellow;
 }
