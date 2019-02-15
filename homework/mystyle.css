@@ -1,0 +1,70 @@
+p:first-child {
+  color: red;
+}
+
+#title {
+  text-align: center;
+}
+.my-article-head {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
+  font: 1rem "Times new roman", sans-serif;
+}
+
+.my-article-head > h1,
+.my-article {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.my-article {
+  background: right/contain content-box border-box no-repeat white;
+}
+
+.my-article > h2,
+.my-article > ul,
+.my-article > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+article {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  font-size: 1rem;
+  font: 1rem "Times new roman", sans-serif;
+  text-align: center;
+  float: bottom;
+}
+p {
+  text-align: justify;
+}
+
+article .history {
+  order: 1;
+}
+article .technology {
+  order: 2;
+}
+
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  right: 0px;
+
+  z-index: 1;
+  top: 0;
+  left: 0.5;
+  background-color: #f5f5dc;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-size: 0.8rem;
+  float: right;
+}
