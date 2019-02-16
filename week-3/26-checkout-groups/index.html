@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/week3-forms.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/week3-forms.css">
-</head>
+  <body>
+    <div class="site-wrapper">
+      <main>
+        <div class="shopping-basket">
+          <h1 class="shopping-basket__title">Your Shopping Basket</h1>
+          <table class="shopping-basket__items">
+            <tr>
+              <th>Product</th>
+              <th>Size</th>
+              <th>Units</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="shopping-basket__product">
+                  <img src="/images/20-shirts.jpg" alt="CodeYourFuture t-shirts in black" />
+                  <p>CodeYourFuture t-shirt, black</p>
+                </div>
+              </td>
+              <td>Medium</td>
+              <td>1</td>
+              <td>£10.00</td>
+            </tr>
+          </table>
+        </div>
 
-<body>
-  <div class="site-wrapper">
-    <main>
+        <div class="checkout">
+          <h2 class="checkout__title">Checkout</h2>
+          <form method="GET" id="checkout-form" class="checkout__form">
+            <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billig Address</legend>
+              <p>
+                <label for="address-line-1"> Address Line 1</label>
+                <input type="text" name="address-line-1" id="address-line-1" />
+              </p>
 
-  		<div class="shopping-basket">
-  			<h1 class="shopping-basket__title">Your Shopping Basket</h2>
-  			<table class="shopping-basket__items">
-  				<tr>
-  					<th>Product</th>
-  					<th>Size</th>
-  					<th>Units</th>
-  					<th>Price</th>
-  				</tr>
-  				<tr>
-  					<td>
-              <div class="shopping-basket__product">
-    						<img src="/images/20-shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
-                <p>CodeYourFuture t-shirt, black</p>
-              </div>
-  					</td>
-  					<td>Medium</td>
-  					<td>1</td>
-  					<td>£10.00</td>
-  				</tr>
-  			</table>
-  		</div>
+              <p>
+                <label for="address-line-2"> Address Line 2</label>
+                <input type="text" name="address-line-2" id="address-line-2" />
+              </p>
 
-  		<div class="checkout">
-  			<h2 class="checkout__title">Checkout</h2>
-        <form method="GET" id="checkout-form" class="checkout__form">
+              <p>
+                <label for="postcode"> Postcode</label>
+                <input type="text" name="postcode" id="postcode" />
+              </p>
 
-          <!-- Add the form fields here -->
+              <p><label for="city"> City</label> <input type="text" name="city" id="city" /></p>
+            </fieldset>
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <p>
+                <label for="address-l-1"> Address Line 1</label>
+                <input type="text" name="address-l-1" id="address-l-1" />
+              </p>
 
-          <button type="submit">Complete Purchase</button>
-        </form>
-  		</div>
+              <p>
+                <label for="address-l-2"> Address Line 2</label>
+                <input type="text" name="address-l-2" id="address-l-2" />
+              </p>
 
-    </main>
-  </div>
-</body>
+              <p>
+                <label for="postcd"> Postcode</label>
+                <input type="text" name="postcd" id="postcd" />
+              </p>
 
+              <p>
+                <label for="city-1"> City</label> <input type="text" name="city-1" id="city-1" />
+              </p>
+            </fieldset>
+
+            <button type="submit">Complete Purchase</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
