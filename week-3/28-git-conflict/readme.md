@@ -46,7 +46,7 @@ Edit the `style.css` file and change the colour of the links in your messages to
 
 Phew! You have restored the blue links and customers have stopped complaining. The next day your boss decides she wants to launch the purple links. You can do this by merging your `purple_links` branch into master.
 
-In [exercise 15](/week-2/15-git-merge) you merged a branch into `master` using GitHub. This time we'll do the same thing on the command line.
+In [exercise 18](/week-2/15-git-merge) you merged a branch into `master` using GitHub. This time we'll do the same thing on the command line.
 
 Check out the `master` branch:
 
