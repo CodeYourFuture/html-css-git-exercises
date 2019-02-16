@@ -75,11 +75,7 @@ This tells you that there is a merge conflict in the file `week-3/20-git-conflic
 ```
 /* Add your own CSS code below */
 .link {
-<<<<<<< HEAD
 	color: #4491db;
-=======
-	color: fuchsia;
->>>>>>> purple_links
 	font-weight: 700;
 	text-decoration: none;
 }
