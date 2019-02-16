@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>25 - T-Shirt Size - HTML, CSS and Git Exercises</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/week3-forms.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>25 - T-Shirt Size - HTML, CSS and Git Exercises</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/week3-forms.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="site-wrapper">
-    <main>
-
-  		<div class="shopping-basket">
-  			<h1 class="shopping-basket__title">Your Shopping Basket</h2>
-  			<table class="shopping-basket__items">
-  				<tr>
-  					<th>Product</th>
-  					<th>Size</th>
-  					<th>Units</th>
-  					<th>Price</th>
-  				</tr>
-  				<tr>
-  					<td>
-              <div class="shopping-basket__product">
-    						<img src="/images/22/shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
-                <p>CodeYourFuture t-shirt, black</p>
-              </div>
-  					</td>
-  					<td>
-              <!-- Medium -->
-              <form>
-                <label class="screenreader">Choose a size</label>
-                <select>
-                  <option>Small</option>
-                  <option selected>Medium</option>
-                  <option>Large</option>
-                </select>
-              </form>
-            </td>
-  					<td>
-              1
-            </td>
-  					<td>
-              £10.00
-            </td>
-  				</tr>
-  			</table>
-  		</div>
-
-    </main>
-  </div>
-</body>
-
+  <body>
+    <div class="site-wrapper">
+      <main>
+        <div class="shopping-basket">
+          <h1 class="shopping-basket__title">Your Shopping Basket</h1>
+          <table class="shopping-basket__items">
+            <tr>
+              <th>Product</th>
+              <th>Size</th>
+              <th>Units</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="shopping-basket__product">
+                  <img src="/images/22/shirts.jpg" alt="CodeYourFuture t-shirts in black" />
+                  <p>CodeYourFuture t-shirt, black</p>
+                </div>
+              </td>
+              <td>
+                <form>
+                  <label class="screenreader">Choose a size</label>
+                  <select>
+                    <option>Small</option>
+                    <option selected>Medium</option>
+                    <option>Large</option>
+                  </select>
+                </form>
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                £10.00
+              </td>
+            </tr>
+          </table>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
