@@ -14,12 +14,35 @@
         <h1>CodeYourFuture Summit</h1>
 
         <p>
-          Let us know if you have any dietary requirements so that we can
-          provide you with the best, yummy food.
+          Let us know if you have any dietary requirements so that we can provide you with the best,
+          yummy food.
         </p>
 
         <form>
           <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+            <label>
+              <input type="checkbox" name="dietary" value="ha" />
+              Halal
+            </label>
+            <label>
+              <input type="checkbox" name="dietary" value="ko" />
+              Kosher
+            </label>
+            <label>
+              <input type="checkbox" name="dietary" value="ve" />
+              Vegetarian
+            </label>
+            <label>
+              <input type="checkbox" name="dietary" value="vg" />
+              Vegan
+            </label>
+            <label>
+              <input type="checkbox" name="dietary" value="gl" />
+              Gluten Free
+            </label>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>

@@ -45,15 +45,15 @@
             <legend>Billing Address</legend>
             <p>
               <label for="billing-address-1">Address Line 1</label>
-              <input type="text" name="billing-address-1" id="billing-address-1">
+              <input type="text" name="billing-address-1" id="billing-address-1" required>
             </p>
             <p>
               <label for="billing-address-2">Address Line 2</label>
-              <input type="text" name="billing-address-2" id="billing-address-2">
+              <input type="text" name="billing-address-2" id="billing-address-2" required>
             </p>
             <p>
               <label for="billing-postcode">Postcode</label>
-              <input type="text" name="billing-postcode" id="billing-postcode">
+              <input type="text" name="billing-postcode" id="billing-postcode" required>
             </p>
             <p>
               <label for="billing-city">City</label>
@@ -80,12 +80,13 @@
             </p>
             <p>
               <label for="delivery-country">Country</label>
-              <input type="text" name="delivery-country" id="delivery-country">
+              <input type="text" name="delivery-country" id="delivery-country" value="United Kingdom" readonly>
             </p>
             <fieldset>
               <legend>Delivery Options</legend>
               <label>
-                <input type="radio" name="delivery-option" id="delivery-option" value="standard">
+                <input type="radio" name="delivery-option" id="delivery-option" value="standard" checked
+                disabled>
                 Royal Mail
               </label>
             </fieldset>
