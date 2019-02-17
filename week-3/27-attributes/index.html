@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+npm r<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -61,7 +61,13 @@
               <legend>Delivery Address</legend>
               <p>
                 <label for="delivery-address-1">Address Line 1</label>
-                <input type="text" name="delivery-address-1" id="delivery-address-1" />
+                <input
+                  type="text"
+                  name="delivery-address-1"
+                  id="delivery-address-1"
+                  required="required"
+                />
+
               </p>
               <p>
                 <label for="delivery-address-2">Address Line 2</label>
@@ -73,15 +79,33 @@
                   type="text"
                   name="delivery-address-postcode"
                   id="delivery-address-postcode"
+
+                  required="required"
+
                 />
               </p>
               <p>
                 <label for="delivery-address-city">City</label>
-                <input type="text" name="delivery-address-city" id="delivery-address-city" />
+
+                <input
+                  type="text"
+                  name="delivery-address-city"
+                  id="delivery-address-city"
+                  required="required"
+                />
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" id="delivery-country" />
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  value="United Kingdom"
+                  readonly="readonly"
+                  checked="checked"
+                  disabled="disabled"
+                />
+
               </p>
               <fieldset>
                 <legend>Delivery Options</legend>
@@ -91,6 +115,10 @@
                     name="delivery-option"
                     id="delivery-option"
                     value="standard"
+
+                    checked="checked"
+                    disabled="disabled"
+
                   />
                   Royal Mail
                 </label>
