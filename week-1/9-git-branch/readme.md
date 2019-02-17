@@ -45,7 +45,7 @@ You can now switch between your `master` branch, where the links are blue, and y
 git checkout master
 ```
 
-Now look in your browser. Your links should be blue. _Hint: You may need to run your `npm start 9` command if you stopped it._
+Now look in your browser. Your links should be blue. _Hint: You may need to run your `npm run 9` command if you stopped it._
 
 Use this command to switch to your `red_links` branch:
 
