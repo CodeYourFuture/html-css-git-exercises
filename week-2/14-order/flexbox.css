@@ -4,36 +4,20 @@
 
 /* Add your own CSS code below */
 
-.countries--first {
-  flex-direction: row;
-}
-.flex-item:nth-of-type(1) {
-  order: 5;
+.country--brazil {
+  order: 1;
 }
 
-.countries--second {
-  flex-direction: row;
-}
-.country--brazil:nth-of-type(1) {
-  order: 4;
-}
-
-.countries--third {
-  flex-direction: row;
-}
-
-.flex-item:nth-of-type(1) {
-  order: 5;
-}
-.flex-item:nth-of-type(2) {
-  order: 4;
-}
-.flex-item:nth-of-type(3) {
-  order: 3;
-}
-.flex-item:nth-of-type(4) {
+.countries--second .country--uganda {
   order: 2;
 }
-.flex-item:nth-of-type(5) {
-  order: 1;
+
+.countries--third .country--croatia {
+  order: 4;
+}
+.country--laos {
+  order: -2;
+}
+.country--uganda {
+  order: -3;
 }
