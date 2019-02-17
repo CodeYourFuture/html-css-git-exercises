@@ -39,7 +39,7 @@
 
           <form method="GET" id="checkout-form" class="checkout__form">
             <fieldset>
-              <legend>"Billing Address"</legend>
+              <legend>Billing Address</legend>
 
               <label for="Address-line-1">Address-line-1</label>
               <input type="text" name="address-line-1" id="address-line-1" />
@@ -53,9 +53,28 @@
               <label for="city">city</label>
               <input type="text" name="city" id="city" />
             </fieldset>
-
-            <button type="submit">Complete Purchase</button>
           </form>
+
+          <div class="checkout">
+            <form method="GET" id="checkout-form" class="checkout__form">
+              <fieldset>
+                <legend>Delivery Address</legend>
+
+                <label for="Address-line-1">Address-line-1</label>
+                <input type="text" name="address-line-1" id="address-line-1" />
+
+                <label for="Address-line-2">Address-line-2</label>
+                <input type="text" name="address-line-2" id="address-line-2" />
+
+                <label for="postcode">postcode</label>
+                <input type="text" name="postcode" id="postcode" />
+
+                <label for="city">city</label>
+                <input type="text" name="city" id="city" />
+              </fieldset>
+            </form>
+            <button type="submit">Complete Purchase</button>
+          </div>
         </div>
       </main>
     </div>
