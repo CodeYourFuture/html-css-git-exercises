@@ -6,9 +6,7 @@
 .country--brazil {
   order: 1;
 }
-.country--brazil {
-  order: 2;
-}
+
 .countries--second .country--uganda {
   order: 3;
 }
