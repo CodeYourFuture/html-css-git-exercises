@@ -63,6 +63,7 @@
 .countries--fourth .country--uganda {
   align-self: center;
 }
+
 @media screen and (min-width: 768px) {
   .countries {
     columns: 2;
