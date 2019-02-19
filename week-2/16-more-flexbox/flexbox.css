@@ -35,9 +35,13 @@
 .countries--fifth {
   flex-direction: column-reverse;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .countries--fifth .country--laos {
   align-items: flex-start;
+  order: 1;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
 }
