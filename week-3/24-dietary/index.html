@@ -7,19 +7,50 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
   </head>
-
+  <style>
+    fieldset {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
   <body>
     <div class="site-wrapper">
       <main>
         <h1>CodeYourFuture Summit</h1>
 
         <p>
-          Let us know if you have any dietary requirements so that we can
-          provide you with the best, yummy food.
+          Let us know if you have any dietary requirements so that we can provide you with the best,
+          yummy food.
         </p>
 
         <form>
           <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+            <label>
+              <input type="checkbox" value="halal" name="dietary-requirements" />
+              Halal
+            </label>
+
+            <label>
+              <input type="checkbox" value="kosher" name="dietary-requirements" />
+              Kosher
+            </label>
+
+            <label>
+              <input type="checkbox" value="vegetarian" name="dietary-requirements" />
+              Vegetarian
+            </label>
+            <label>
+              <input type="checkbox" value="vegan" name="dietary-requirements" />
+              Vegan
+            </label>
+
+            <label>
+              <input type="checkbox" value="GlutenFree" name="dietary-requirements" />
+              Gluten Free
+            </label>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
