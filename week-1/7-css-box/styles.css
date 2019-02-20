@@ -7,3 +7,18 @@
   margin: 0.5em;
   background: #fff;
 }
+.pages {
+  margin-top: 15px;
+}
+
+.countries {
+  width: 433px;
+  height: 230px;
+  padding: 10px;
+  margin: 1px;
+}
+.country {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid blueviolet;
+}
