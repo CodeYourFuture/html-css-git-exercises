@@ -1,102 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>27 - Field Attributes - HTML, CSS and Git Exercises</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/week3-forms.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>27 - Field Attributes - HTML, CSS and Git Exercises</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/week3-forms.css">
-</head>
+  <body>
+    <div class="site-wrapper">
+      <main>
+        <div class="shopping-basket">
+          <h1 class="shopping-basket__title">Your Shopping Basket</h1>
+          <table class="shopping-basket__items">
+            <tr>
+              <th>Product</th>
+              <th>Size</th>
+              <th>Units</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="shopping-basket__product">
+                  <img src="/images/22/shirts.jpg" alt="CodeYourFuture t-shirts in black" />
+                  <p>CodeYourFuture t-shirt, black</p>
+                </div>
+              </td>
+              <td>Medium</td>
+              <td>1</td>
+              <td>£10.00</td>
+            </tr>
+          </table>
+        </div>
 
-<body>
-  <div class="site-wrapper">
-    <main>
-
-  		<div class="shopping-basket">
-  			<h1 class="shopping-basket__title">Your Shopping Basket</h2>
-  			<table class="shopping-basket__items">
-  				<tr>
-  					<th>Product</th>
-  					<th>Size</th>
-  					<th>Units</th>
-  					<th>Price</th>
-  				</tr>
-  				<tr>
-  					<td>
-              <div class="shopping-basket__product">
-    						<img src="/images/22/shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
-                <p>CodeYourFuture t-shirt, black</p>
-              </div>
-  					</td>
-  					<td>Medium</td>
-  					<td>1</td>
-  					<td>£10.00</td>
-  				</tr>
-  			</table>
-  		</div>
-
-  		<div class="checkout">
-  			<h2 class="checkout__title">Checkout</h2>
-        <form method="GET" id="checkout-form" class="checkout__form">
-
-          <!-- Add the form fields here -->
-          <fieldset>
-            <legend>Billing Address</legend>
-            <p>
-              <label for="billing-address-1">Address Line 1</label>
-              <input type="text" name="billing-address-1" id="billing-address-1">
-            </p>
-            <p>
-              <label for="billing-address-2">Address Line 2</label>
-              <input type="text" name="billing-address-2" id="billing-address-2">
-            </p>
-            <p>
-              <label for="billing-postcode">Postcode</label>
-              <input type="text" name="billing-postcode" id="billing-postcode">
-            </p>
-            <p>
-              <label for="billing-city">City</label>
-              <input type="text" name="billing-city" id="billing-city">
-            </p>
-          </fieldset>
-          <fieldset>
-            <legend>Delivery Address</legend>
-            <p>
-              <label for="delivery-address-1">Address Line 1</label>
-              <input type="text" name="delivery-address-1" id="delivery-address-1">
-            </p>
-            <p>
-              <label for="delivery-address-2">Address Line 2</label>
-              <input type="text" name="delivery-address-2" id="delivery-address-2">
-            </p>
-            <p>
-              <label for="delivery-address-postcode">Postcode</label>
-              <input type="text" name="delivery-address-postcode" id="delivery-address-postcode">
-            </p>
-            <p>
-              <label for="delivery-address-city">City</label>
-              <input type="text" name="delivery-address-city" id="delivery-address-city">
-            </p>
-            <p>
-              <label for="delivery-country">Country</label>
-              <input type="text" name="delivery-country" id="delivery-country">
-            </p>
+        <div class="checkout">
+          <h2 class="checkout__title">Checkout</h2>
+          <form method="GET" id="checkout-form" class="checkout__form">
+            <!-- Add the form fields here -->
             <fieldset>
-              <legend>Delivery Options</legend>
-              <label>
-                <input type="radio" name="delivery-option" id="delivery-option" value="standard">
-                Royal Mail
-              </label>
+              <legend>Billing Address</legend>
+              <p>
+                <label for="billing-address-1">Address Line 1</label>
+                <input type="text" name="billing-address-1" id="billing-address-1" required />
+              </p>
+              <p>
+                <label for="billing-address-2">Address Line 2</label>
+                <input type="text" name="billing-address-2" id="billing-address-2" />
+              </p>
+              <p>
+                <label for="billing-postcode">Postcode</label>
+                <input type="text" name="billing-postcode" id="billing-postcode" required />
+              </p>
+              <p>
+                <label for="billing-city">City</label>
+                <input type="text" name="billing-city" id="billing-city" required />
+              </p>
             </fieldset>
-          </fieldset>
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <p>
+                <label for="delivery-address-1">Address Line 1</label>
+                <input type="text" name="delivery-address-1" id="delivery-address-1" required />
+              </p>
+              <p>
+                <label for="delivery-address-2">Address Line 2</label>
+                <input type="text" name="delivery-address-2" id="delivery-address-2" />
+              </p>
+              <p>
+                <label for="delivery-address-postcode">Postcode</label>
+                <input
+                  type="text"
+                  name="delivery-address-postcode"
+                  id="delivery-address-postcode"
+                  required
+                />
+              </p>
+              <p>
+                <label for="delivery-address-city">City</label>
+                <input
+                  type="text"
+                  name="delivery-address-city"
+                  id="delivery-address-city"
+                  required
+                />
+              </p>
+              <p>
+                <label for="delivery-country">Country</label>
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  placeholder="United Kingdom"
+                  readonly
+                />
+              </p>
+              <fieldset>
+                <legend>Delivery Options</legend>
+                <label>
+                  <input
+                    type="radio"
+                    name="delivery-option"
+                    id="delivery-option"
+                    value="standard"
+                    checked
+                    disabled
+                  />
+                  Royal Mail
+                </label>
+              </fieldset>
+            </fieldset>
 
-          <button type="submit">Complete Purchase</button>
-        </form>
-  		</div>
-
-    </main>
-  </div>
-</body>
-
+            <button type="submit">Complete Purchase</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
