@@ -1,1 +1,72 @@
 /* Add your own CSS code below */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.views {
+  display: flex;
+}
+
+.views__all {
+  margin-left: auto;
+}
+
+.view-list__item {
+  margin-left: 15px;
+  padding: 0;
+}
+
+.radio__branch {
+  margin: 0 0 10px 0;
+}
+
+/* Restrict the maximum width of the article to `50em` */
+.main-article p {
+  max-width: 50em;
+  line-height: 1.5em;
+}
+
+/* 1-Use flexbox to centre the article on the page. */
+.main-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-heart {
+  color: #c85308;
+}
+
+/* The logo, navigation menu and search input could fit side by side on wider screens */
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-header__title {
+    justify-content: flex-start;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+  .site-search {
+    justify-content: center;
+  }
+}
+
+/* "Hero" component */
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 50px;
+  }
+}
