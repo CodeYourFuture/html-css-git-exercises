@@ -10,19 +10,6 @@ ul {
   justify-content: space-around;
 }
 
-.views {
-  display: flex;
-}
-
-.views__all {
-  margin-left: auto;
-}
-
-.view-list__item {
-  margin-left: 15px;
-  padding: 0;
-}
-
 .radio__branch {
   margin: 0 0 10px 0;
 }
@@ -36,7 +23,7 @@ ul {
 /* 1-Use flexbox to centre the article on the page. */
 .main-article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -61,6 +48,19 @@ ul {
 
   .site-search {
     justify-content: center;
+  }
+
+  .views {
+    display: flex;
+  }
+
+  .views__all {
+    margin-left: auto;
+  }
+
+  .view-list__item {
+    margin-left: 15px;
+    padding: 0;
   }
 }
 
