@@ -1,1 +1,17 @@
 /* Add your CSS code below */
+.link-link--gif,
+.link-link--map {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message_time {
+  font-size: 0.9rem;
+}
+.message_content {
+  opacity: 1;
+  line-height: 36px;
+}
+.message_unread {
+  border-left: 5px dashed blue;
+}
