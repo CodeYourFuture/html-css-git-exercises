@@ -3,3 +3,75 @@
 }
 
 /* Add your own CSS code below */
+.country--ethiopia {
+  align-items: center;
+  align-self: flex-end;
+}
+
+.countries--first .country--croatia {
+  align-items: center;
+  align-self: flex-start;
+}
+.countries--first .country--laos {
+  align-self: flex-start;
+  align-items: center;
+}
+
+.countries--second {
+  align-items: center;
+  flex-direction: row;
+}
+.countries--second .country--croatia {
+  align-self: center;
+  align-items: flex-start;
+}
+
+.countries--second .country--laos {
+  align-self: center;
+  align-items: flex-start;
+}
+
+.countries--third {
+  align-items: center;
+}
+.countries--third .country--brazil {
+  align-self: flex-start;
+}
+.countries--third .country--uganda {
+  align-self: flex-start;
+}
+
+.country--croatia {
+  align-self: flex-end;
+}
+.country--laos {
+  align-self: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.countries--fourth .country--croatia {
+  align-self: flex-start;
+}
+.countries--fourth .country--ethiopia {
+  align-self: flex-start;
+}
+.countries--fourth .country--laos {
+  align-self: flex-start;
+}
+.countries--fourth .country--uganda {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .countries {
+    columns: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .countries {
+    columns: 2;
+  }
+}
