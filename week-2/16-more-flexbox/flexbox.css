@@ -60,10 +60,6 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-.countries--fifth .country--uganda {
-  display: flex;
-  align-self: center;
-}
 
 .countries--fifth .country--uganda {
   display: flex;
