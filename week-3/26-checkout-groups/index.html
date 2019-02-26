@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/week3-forms.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>26 - Checkout Groups - HTML, CSS and Git Exercises</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/week3-forms.css">
-</head>
+  <body>
+    <div class="site-wrapper">
+      <main>
+        <div class="shopping-basket">
+          <h1 class="shopping-basket__title">Your Shopping Basket</h1>
+          <table class="shopping-basket__items">
+            <tr>
+              <th>Product</th>
+              <th>Size</th>
+              <th>Units</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="shopping-basket__product">
+                  <img src="/images/20-shirts.jpg" alt="CodeYourFuture t-shirts in black" />
+                  <p>CodeYourFuture t-shirt, black</p>
+                </div>
+              </td>
+              <td>Medium</td>
+              <td>1</td>
+              <td>£10.00</td>
+            </tr>
+          </table>
+        </div>
 
-<body>
-  <div class="site-wrapper">
-    <main>
-
-  		<div class="shopping-basket">
-  			<h1 class="shopping-basket__title">Your Shopping Basket</h2>
-  			<table class="shopping-basket__items">
-  				<tr>
-  					<th>Product</th>
-  					<th>Size</th>
-  					<th>Units</th>
-  					<th>Price</th>
-  				</tr>
-  				<tr>
-  					<td>
-              <div class="shopping-basket__product">
-    						<img src="/images/20-shirts.jpg" alt="CodeYourFuture t-shirts in black"/>
-                <p>CodeYourFuture t-shirt, black</p>
-              </div>
-  					</td>
-  					<td>Medium</td>
-  					<td>1</td>
-  					<td>£10.00</td>
-  				</tr>
-  			</table>
-  		</div>
-
-  		<div class="checkout">
-  			<h2 class="checkout__title">Checkout</h2>
-        <form method="GET" id="checkout-form" class="checkout__form">
-
-          <!-- Add the form fields here -->
-
-          <button type="submit">Complete Purchase</button>
-        </form>
-  		</div>
-
-    </main>
-  </div>
-</body>
-
+        <div class="checkout">
+          <h2 class="checkout__title">Checkout</h2>
+          <form method="GET" id="checkout-form" class="checkout__form">
+            <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <label>
+                Address Line 1
+                <input type="text" name="billing-adress1" />
+              </label>
+              <label>
+                Address Line 2
+                <input type="text" name="billing-adress2" />
+              </label>
+              <label>
+                Postcode
+                <input type="text" name="billing-postcode" />
+              </label>
+              <label>
+                City
+                <input type="text" name="billing-city" />
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <label>
+                Address Line 1
+                <input type="text" name="delivery-adress1" />
+              </label>
+              <label>
+                Address Line 2
+                <input type="text" name="delivery-adress2" />
+              </label>
+              <label>
+                Postcode
+                <input type="text" name="delivery-postcode" />
+              </label>
+              <label>
+                City
+                <input type="text" name="delivery-city" />
+              </label>
+            </fieldset>
+            <button type="submit">Complete Purchase</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
