@@ -1,1 +1,52 @@
 /* Add your own CSS code below */
+.red-heart {
+  color: #c85308;
+  font-size: 1.3em;
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-form__field {
+  margin-top: 15px;
+}
+.contact-form__field fieldset {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form__field fieldset > * {
+  margin-bottom: 10px;
+}
+.main-article {
+  max-width: 50em;
+  margin: auto;
+}
+.main-article p {
+  line-height: 1.7em;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .views__all {
+    align-self: ;
+  }
+  .views > * {
+    margin-right: 15px;
+  }
+  .views__all:last-child {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 3em;
+  }
+}
