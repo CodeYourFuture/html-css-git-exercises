@@ -20,7 +20,8 @@
 .countries--second .country--brazil {
   order: 1;
 }
-.countries--third {
+.countries__countries--third {
+  display: flex;
   flex-direction: row-reverse;
   align-items: flex-end;
 }
