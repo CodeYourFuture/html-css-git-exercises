@@ -8,4 +8,5 @@
 }
 .message:last-child {
   box-shadow: 4px 4px 0 #dba944;
+  font-size: 12px;
 }
