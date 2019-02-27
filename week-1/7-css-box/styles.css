@@ -5,6 +5,9 @@
   border: 1px solid red;
   border-radius: 5px;
   margin: 0.5em;
+=======
+  border: 1px solid #4491db;
+  border-radius: 4px;
   background: #fff;
   border-width: 50;
 }
