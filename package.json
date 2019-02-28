@@ -34,7 +34,7 @@
     "27": "live-server --open=week-3/27-attributes",
     "28": "live-server --open=week-3/28-git-conflict",
     "29": "live-server --open=week-3/29-combined-skills",
-    "precommit": "pretty-quick --staged",
+    "precommit": "pretty-quick --staged --verbose",
     "serve": "live-server"
   },
   "devDependencies": {
