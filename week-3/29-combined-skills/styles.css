@@ -1,1 +1,49 @@
 /* Add your own CSS code below */
+.fun-color {
+  color: #c85308;
+}
+
+/* ====## 3. Hero Text Size======= */
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}
+
+/* ====## 4. Navigation Menu======= */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* ====## 5. Header ======= */
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* ====## 6. Views ======= */
+@media (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.views__all {
+  margin-left: auto;
+}
+
+/* ====## 11. Text Formatting ======= */
+article .main-article p {
+  display: flex;
+  align-content: center;
+  max-width: 50em;
+}
+.main-article p {
+  line-height: 25px;
+}
