@@ -4,3 +4,8 @@
   position: absolute !important;
   left: -2000px;
 }
+
+.shopping-basket__product {
+  width: 350px;
+  height: 120px;
+}
