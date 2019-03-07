@@ -64,7 +64,7 @@
       if (
         el.tagName !== "TIME" ||
         !el.hasAttribute("dateTime") ||
-        el.getAttribute("dateTime") !== correctTimes[index]
+        new Date(el.getAttribute("dateTime")).getTime() !== new Date(correctTimes[index]).getTime()
       ) {
         result = false;
       }
@@ -78,9 +78,7 @@
     var resultMessage = test.result ? successMessage : failMessage;
     var el = document.createElement("div");
     el.className = "result__item";
-    el.appendChild(
-      document.createTextNode(resultMessage + " Added " + test.name)
-    );
+    el.appendChild(document.createTextNode(resultMessage + " Added " + test.name));
     resultEl.appendChild(el);
   });
 })();
