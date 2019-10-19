@@ -1,0 +1,39 @@
+
+.container1{
+    justify-content: flex-end;
+width: 90%;
+margin: 0 auto;
+display: flex;
+flex-direction: column-reverse;
+background-color: orange;
+align-items: center;
+}
+
+#first{
+    margin: 20px 10px;
+    width: 50%;
+flex: 0 0 200px;
+background-color: aqua;
+}
+
+#second{
+    margin: 20px 10px;
+    width: 50%;
+flex: 0 0 150px;
+background-color: yellowgreen;
+}
+
+#third{
+    margin: 20px 10px;
+    width: 50%;
+flex: 0 0 80px;
+background-color: blue;
+}
+
+@media screen and (min-width: 641px){
+.container1{
+    flex-direction: row;
+    width: 80%;
+    
+    }
+}

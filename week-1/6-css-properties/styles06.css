@@ -14,7 +14,7 @@ font-size: 0,9rem
 }
 </style> 
 
-.div.message.message--unread {
+.message--unread {
 border-left-color: 5px solid blue;
 }
 

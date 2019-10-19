@@ -1,1 +1,10 @@
 /* Try different box model properties below */
+
+body p {
+    text-decoration-color: white;
+}
+
+.site-header p {
+  color: white;
+margin-bottom: 0px;
+} 
