@@ -4,25 +4,25 @@
   margin: auto;
 }
 
-.countries--first:nth-of-type(country--uganda) {
+.countries--first .country--uganda {
   order: 3;
 }
-.countries--first:nth-of-type(country--brazil) {
+.countries--first .country--brazil {
   order: 4;
 }
-.countries--first:nth-of-type(country--laos) {
+.countries--first .country--laos {
   order: 0;
 }
-.countries--first:nth-of-type(country--croatia) {
+.countries--first .country--croatia {
   order: 0;
 }
-.countries--first:nth-of-type(country--ethiopia) {
+.countries--first .country--ethiopia {
   order: 0;
 }
-.countries--second:nth-of-type(country--brazil) {
+.countries--second .country--brazil {
   order: 3;
 }
-.countries--second:nth-of-type(country--uganda) {
+.countries--second .country--uganda {
   order: 4;
 }
 
