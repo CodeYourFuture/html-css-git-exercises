@@ -1,5 +1,33 @@
 .countries {
   display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.countries--first:nth-of-type(country--uganda) {
+  order: 3;
+}
+.countries--first:nth-of-type(country--brazil) {
+  order: 4;
+}
+.countries--first:nth-of-type(country--laos) {
+  order: 0;
+}
+.countries--first:nth-of-type(country--croatia) {
+  order: 0;
+}
+.countries--first:nth-of-type(country--ethiopia) {
+  order: 0;
+}
+.countries--second:nth-of-type(country--brazil) {
+  order: 3;
+}
+.countries--second:nth-of-type(country--uganda) {
+  order: 4;
+}
+
+.countries--third {
+  flex-direction: row-reverse;
 }
 
 /* Add your own CSS code below */
