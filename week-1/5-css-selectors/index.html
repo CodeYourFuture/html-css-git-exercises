@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>5. CSS Selectors - HTML, CSS and Git Exercises</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/week1.css" />
-    <link rel="stylesheet" href="/css/message.css" />
-    <link rel="stylesheet" href="/css/message-css-selectors.css" />
-    <link rel="stylesheet" href="message-backgrounds.css" />
-  </head>
 
-  <body>
-    <div class="site-wrapper">
-      <div class="site-header">
-        <div class="site-header__title">Messages</div>
+<head>
+  <meta charset="utf-8" />
+  <title>5. CSS Selectors - HTML, CSS and Git Exercises</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/normalize.css" />
+  <link rel="stylesheet" href="../../css/week1.css" />
+  <link rel="stylesheet" href="../../css/message.css" />
+  <link rel="stylesheet" href="../../css/message-css-selectors.css" />
+  <link rel="stylesheet" href="message-backgrounds.css" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="site-header">
+      <div class="site-header__title">Messages</div>
+    </div>
+    <div class="messages">
+      <div id="first-message">
+        <div class="message__author">Won</div>
+        <p class="message__content">Where should we meet later?</p>
+        <time class="message__time">7:25pm</time>
       </div>
-      <div class="messages">
-        <div id="first-message">
-          <div class="message__author">Won</div>
-          <p class="message__content">Where should we meet later?</p>
-          <time class="message__time">7:25pm</time>
-        </div>
-        <article>
-          <div class="message__author">Luke</div>
-          <p class="message__content">
-            Let's meet at the iCafe in Merchant City. https://goo.gl/maps/aza4h9nUBhn
-          </p>
-          <time class="message__time">7:35pm</time>
-        </article>
-        <div class="message--latest">
-          <div class="message__author">Won</div>
-          <p class="message__content">
-            Ok! https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif
-          </p>
-          <time class="message__time">7:38pm</time>
-        </div>
+      <article>
+        <div class="message__author">Luke</div>
+        <p class="message__content">
+          Let's meet at the <a href=https://goo.gl/maps/aza4h9nUBhn>iCafe </a> in Merchant City. </p> <time
+            class="message__time">7:35pm</time>
+      </article>
+      <div class="message--latest">
+        <div class="message__author">Won</div>
+        <p class="message__content">
+          Ok! <img class="message__image" src="https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif"
+            alt="animated pic" style="width: 100%">
+        </p>
+        <time class="message__time">7:38pm</time>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
