@@ -8,13 +8,13 @@ a {
 .message__time {
   font-size: 0.9rem;
 }
-.message--unread > .message__content {
-  border-left-style: solid;
-  border-color: blue;
+
+.message.message--unread {
+  border-left: 5px solid blue;
 }
-.message--old {
-  opacity: 0.5;
+.message.message--old {
+  opacity: 40%;
 }
-.message__content {
-  line-height: 3;
+.message {
+  line-height: 1.9em;
 }
