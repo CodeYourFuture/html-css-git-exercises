@@ -7,6 +7,6 @@ article {
   background-color: cadetblue;
 }
 
-.message_author {
+.message--latest {
   background-color: yellow;
 }
