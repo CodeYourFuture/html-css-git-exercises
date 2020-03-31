@@ -1,5 +1,5 @@
 /* Try different box model properties below */
-div .site-header p {
+.site-header p {
   color: white;
   margin-bottom: 0%;
 }
@@ -7,6 +7,6 @@ div .site-header p {
   font-size: 12px;
   text-align: center;
 }
-div .message--unread {
+.message--unread {
   box-shadow: 4px 4px 0 #dba944;
 }
