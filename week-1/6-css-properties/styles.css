@@ -1,6 +1,6 @@
 /* Add your CSS code below */
-.link.link--map,
-.link.link--gif {
+.link--map,
+.link--gif {
   color: red;
   font-weight: bold;
   text-decoration: none;
@@ -8,10 +8,10 @@
 .message__time {
   font-size: 0.9rem;
 }
-.message.message--unread {
+.message--unread {
   border-left: 5px solid blue;
 }
-.message.message--old {
+.message--old {
   opacity: 40%;
 }
 .message {
