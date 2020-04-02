@@ -16,9 +16,9 @@ a {
   border-left-color: blue;
 }
 
-.message--old .message__time {
+.message--old .message__content {
   opacity: 0.5;
 }
-p {
-  line-height: 1px;
+.message__content {
+  line-height: 50px;
 }
