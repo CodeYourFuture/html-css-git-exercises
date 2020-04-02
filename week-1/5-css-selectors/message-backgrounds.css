@@ -5,6 +5,6 @@
 article .message__content {
   background-color: cadetblue;
 }
-.message__content .message__content {
+.message--latest .message__content {
   background-color: yellow;
 }
