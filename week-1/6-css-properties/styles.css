@@ -11,7 +11,9 @@ a {
 }
 
 .message--unread .message__content {
-  border-left: 6px solid blue;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: blue;
 }
 
 .message--old .message__time {
