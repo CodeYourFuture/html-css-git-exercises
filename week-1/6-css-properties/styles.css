@@ -12,7 +12,7 @@ a {
 
 .message--unread .message__content {
   border-left-style: solid;
-  border-left-width: thick;
+  border-left-width: 5px;
   border-left-color: blue;
 }
 
