@@ -11,8 +11,7 @@ a {
 .message {
   line-height: 200%;
 }
-
-div .message--old {
+.message--old {
   opacity: 0.3;
 }
 
