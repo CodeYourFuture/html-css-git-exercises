@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-}
-.countries {
-  columns: 2;
+  .countries {
+    columns: 3;
+  }
 }
