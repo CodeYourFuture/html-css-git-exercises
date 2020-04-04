@@ -1,4 +1,6 @@
 .countries {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 /* Add your own CSS code below */
