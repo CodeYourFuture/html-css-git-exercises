@@ -1,9 +1,17 @@
 /* Add your own CSS code below */
+.countries {
+  display: flex;
+}
 
 .countries--first {
   display: flex;
   flex-direction: row-reverse;
   justify-content: right;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: column;
 }
 
 .countries--third {
