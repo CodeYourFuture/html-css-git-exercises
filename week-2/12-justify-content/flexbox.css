@@ -20,6 +20,11 @@
 .countries--third {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
-.countries--fourth
+.countries--fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
