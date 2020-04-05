@@ -23,12 +23,6 @@
 .countries--third :first-child,
 .countries--third :last-child {
   align-self: flex-start;
-  color: blueviolet;
-}
-
-.countries--third :last-child {
-  align-self: flex-start;
-  color: blueviolet;
 }
 
 .countries--fourth {
