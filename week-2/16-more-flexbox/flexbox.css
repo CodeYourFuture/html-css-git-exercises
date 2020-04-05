@@ -3,3 +3,39 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.countries--second {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+.countries--third {
+  align-items: flex-start;
+  justify-content: center;
+}
+.countries--third :first-child {
+  align-self: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.countries--fourth :nth-child(3),
+.countries--fourth :nth-child(4) {
+  align-self: center;
+}
+.countries--fifth {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.countries--fifth :nth-child(4) {
+  order: 5;
+}
+.countries--fifth :nth-child(5) {
+  align-self: center;
+}
