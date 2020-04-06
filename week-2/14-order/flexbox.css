@@ -2,15 +2,6 @@
   display: flex;
 }
 
-.countries--first .country--croatia {
-  order: 11;
-}
-.countries--first .country--ethiopia {
-  order: 2;
-}
-.countries--first .country--laos {
-  order: 3;
-}
 .countries--first .country--uganda {
   order: 4;
 }
@@ -18,15 +9,6 @@
   order: 5;
 }
 
-.countries--second .country--croatia {
-  order: 1;
-}
-.countries--second .country--ethiopia {
-  order: 2;
-}
-.countries--second .country--laos {
-  order: 3;
-}
 .countries--second .country--brazil {
   order: 4;
 }
