@@ -3,3 +3,26 @@
 }
 
 /* Add your own CSS code below */
+.countries--first :nth-child(3) {
+  align-self: flex-end;
+}
+.countries--second :not(.country--ethiopia) {
+  align-self: center;
+}
+.countries--second :nth-child(3) {
+  align-self: flex-end;
+}
+.countries--third :first-child,
+:last-child {
+  align-self: flex-start;
+}
+.countries--third {
+  align-items: flex-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.countries--fourth :last-child {
+  align-self: center;
+}

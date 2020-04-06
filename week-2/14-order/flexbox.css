@@ -2,4 +2,48 @@
   display: flex;
 }
 
-/* Add your own CSS code below */
+.countries--first :nth-child(1) {
+  order: 5;
+}
+.countries--first :nth-child(2) {
+  order: 1;
+}
+.countries--first :nth-child(3) {
+  order: 2;
+}
+.countries--first :nth-child(4) {
+  order: 3;
+}
+.countries--first :nth-child(5) {
+  order: 4;
+}
+.countries--second :nth-child(1) {
+  order: 4;
+}
+.countries--second :nth-child(2) {
+  order: 1;
+}
+.countries--second :nth-child(3) {
+  order: 2;
+}
+.countries--second :nth-child(4) {
+  order: 3;
+}
+.countries--second :nth-child(5) {
+  order: 5;
+}
+.countries--third :nth-child(1) {
+  order: 5;
+}
+.countries--third :nth-child(2) {
+  order: 4;
+}
+.countries--third :nth-child(3) {
+  order: 3;
+}
+.countries--third :nth-child(4) {
+  order: 2;
+}
+.countries--third :nth-child(5) {
+  order: 1;
+}
