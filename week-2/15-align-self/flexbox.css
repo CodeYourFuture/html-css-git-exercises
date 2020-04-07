@@ -6,36 +6,19 @@
   align-self: flex-end;
 }
 
-.countries--second .country--brazil {
-  align-self: center;
+.countries--second {
+  align-items: center;
 }
-.countries--second .country--croatia {
-  align-self: center;
-}
-.countries--second .country--ethiopia {
+.countries--second :nth-child(3) {
   align-self: flex-end;
-}
-.countries--second .country--laos {
-  align-self: center;
-}
-.countries--second .country--uganda {
-  align-self: center;
 }
 
-.countries--third .country--brazil {
+.countries--third :nth-child(1),
+.countries--third :nth-child(5) {
   align-self: flex-start;
 }
-.countries--third .country--croatia {
-  align-self: flex-end;
-}
-.countries--third .country--ethiopia {
-  align-self: flex-end;
-}
-.countries--third .country--laos {
-  align-self: flex-end;
-}
-.countries--third .country--uganda {
-  align-self: flex-start;
+.countries--third {
+  align-items: flex-end;
 }
 
 .countries--fourth {
