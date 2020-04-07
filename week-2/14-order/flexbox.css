@@ -2,10 +2,10 @@
   display: flex;
 }
 
-.countries--first .country--uganda {
+.countries--first :nth-child(5) {
   order: 4;
 }
-.countries--first .country--brazil {
+.countries--first :nth-child(1) {
   order: 5;
 }
 
