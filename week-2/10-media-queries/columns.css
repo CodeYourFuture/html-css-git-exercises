@@ -8,5 +8,6 @@
 @media screen and (min-width: 1200px) {
   .countries {
     columns: 3;
+    background-color: red;
   }
 }
