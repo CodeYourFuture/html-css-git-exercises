@@ -30,10 +30,10 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-.countries--fifth .country--laos {
+.countries--fifth :nth-child(4) {
   order: 5;
 }
-.countries--fifth .country--uganda {
+.countries--fifth :nth-child(5) {
   order: 4;
   align-self: center;
 }
