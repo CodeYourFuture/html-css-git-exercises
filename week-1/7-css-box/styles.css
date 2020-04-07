@@ -4,3 +4,9 @@
   border-radius: 4px;
   background: #fff;
 }
+.country {
+  font-size: 0.9rem;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
