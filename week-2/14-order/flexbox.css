@@ -2,10 +2,7 @@
   display: flex;
 }
 
-.countries--first :nth-child(5) {
-  order: 4;
-}
-.countries--first :nth-child(1) {
+.countries--first .country--brazil {
   order: 5;
 }
 
@@ -15,19 +12,6 @@
 .countries--second .country--uganda {
   order: 5;
 }
-
-.countries--third .country--uganda {
-  order: 1;
-}
-.countries--third .country--laos {
-  order: 2;
-}
-.countries--third .country--ethiopia {
-  order: 3;
-}
-.countries--third .country--croatia {
-  order: 4;
-}
-.countries--third .country--brazil {
-  order: 5;
+.countries--third {
+  flex-direction: row-reverse;
 }
