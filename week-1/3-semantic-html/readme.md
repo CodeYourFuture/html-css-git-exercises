@@ -1,6 +1,10 @@
 # Semantic HTML
 
-There are no semantic tags or attributes being used in the messages for this example. Let's improve it by changing the tags and attributes to semantic HTML code, so that computers can understand what kind of information is being presented. Complete the following changes in the `index.html` file:
+There are no semantic tags or attributes being used in the messages for this example. Let's improve it by changing the tags and attributes to semantic HTML code, so that computers can understand what kind of information is being presented.
+Take a look at the picture, which shows an example of a semantic HTML structure.
+![A visual diagram showing the semantic structure of an HTML page.](html.jpg)
+
+Complete the following changes in the `index.html` file:
 
 1. Replace an existing tag with the `<header role="banner">` tag to specify the site's header area.
 2. Replace an existing tag with the `<main role="main">` tag to specify the main content on the site.
