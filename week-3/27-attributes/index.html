@@ -42,59 +42,70 @@
               <legend>Billing Address</legend>
               <p>
                 <label for="billing-address-1">Address Line 1</label>
-                <input type="text" name="billing-address-1" id="billing-address-1" />
+                <input type="text" name="billing-address-1" id="billing-address-1" required />
               </p>
               <p>
                 <label for="billing-address-2">Address Line 2</label>
-                <input type="text" name="billing-address-2" id="billing-address-2" />
+                <input type="text" name="billing-address-2" id="billing-address-2" required />
               </p>
               <p>
                 <label for="billing-postcode">Postcode</label>
-                <input type="text" name="billing-postcode" id="billing-postcode" />
+                <input type="text" name="billing-postcode" id="billing-postcode" required />
               </p>
               <p>
                 <label for="billing-city">City</label>
-                <input type="text" name="billing-city" id="billing-city" />
+                <input type="text" name="billing-city" id="billing-city" required />
               </p>
             </fieldset>
             <fieldset>
               <legend>Delivery Address</legend>
               <p>
                 <label for="delivery-address-1">Address Line 1</label>
-                <input type="text" name="delivery-address-1" id="delivery-address-1" />
+                <input type="text" name="delivery-address-1" id="delivery-address-1" required />
               </p>
               <p>
                 <label for="delivery-address-2">Address Line 2</label>
-                <input type="text" name="delivery-address-2" id="delivery-address-2" />
+                <input type="text" name="delivery-address-2" id="delivery-address-2" required />
               </p>
               <p>
                 <label for="delivery-address-postcode">Postcode</label>
-                <input
-                  type="text"
-                  name="delivery-address-postcode"
-                  id="delivery-address-postcode"
-                />
+                <input type="text name="delivery-address-postcode" id="delivery-address-postcode"
+                required />
               </p>
               <p>
                 <label for="delivery-address-city">City</label>
-                <input type="text" name="delivery-address-city" id="delivery-address-city" />
+                <input
+                  type="text"
+                  name="delivery-address-city"
+                  id="delivery-address-city"
+                  required
+                />
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" id="delivery-country" />
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  required
+                  value="United Kingdom"
+                  readonly
+                />
               </p>
-              <fieldset>
-                <legend>Delivery Options</legend>
-                <label>
-                  <input
-                    type="radio"
-                    name="delivery-option"
-                    id="delivery-option"
-                    value="standard"
-                  />
-                  Royal Mail
-                </label>
-              </fieldset>
+            </fieldset>
+            <fieldset>
+              <legend>Delivery Options</legend>
+              <label>
+                <input
+                  type="radio"
+                  name="delivery-option"
+                  id="delivery-option"
+                  value="standard"
+                  checked
+                  disabled
+                />
+                Royal Mail
+              </label>
             </fieldset>
 
             <button type="submit">Complete Purchase</button>
