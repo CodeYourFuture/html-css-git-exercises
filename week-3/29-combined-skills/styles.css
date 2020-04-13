@@ -11,3 +11,29 @@ fieldset {
     font-size: 50px;
   }
 }
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  a.views__all {
+    align-self: flex-end;
+  }
+}
