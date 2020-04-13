@@ -15,7 +15,7 @@ fieldset {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 @media screen and (min-width: 767px) {
   .site-header {
@@ -36,4 +36,11 @@ fieldset {
   a.views__all {
     align-self: flex-end;
   }
+}
+p.text1 {
+  max-width: 50em;
+  line-height: 2;
+}
+.main-article {
+  align-items: center;
 }
