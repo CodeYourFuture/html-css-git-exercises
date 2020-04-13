@@ -6,3 +6,8 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 50px;
+  }
+}
