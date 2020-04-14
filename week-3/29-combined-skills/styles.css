@@ -19,4 +19,28 @@
     align-items: center;
     justify-content: space-between;
   }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .views :last-child {
+    margin-left: 770px;
+  }
+  .views :nth-child(2),
+  .views :nth-child(3) {
+    margin-right: 20px;
+  }
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-article {
+  max-width: 50em;
+}
+
+.main-article p {
+  line-height: 200%;
 }
