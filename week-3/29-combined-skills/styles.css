@@ -33,15 +33,19 @@ fieldset {
   }
 }
 @media screen and (min-width: 767px) {
-  a.views__all {
-    align-self: flex-end;
+  .view-list__item {
+    margin-left: 10px;
   }
 }
-p.text1 {
-  max-width: 50em;
-  line-height: 2;
+@media screen and (min-width: 767px) {
+  a.views__all {
+    margin-left: auto;
+    justify-self: end;
+  }
 }
 .main-article {
-  align-items: center;
-  justify-content: center;
+  max-width: 50em;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
 }
