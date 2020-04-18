@@ -3,7 +3,7 @@
 With flexbox, the `justify-content` property can be used to control how extra space is used. In this exercise, you'll apply a different `justify-content` property to each list. Follow the steps below to complete this exercise.
 
 1. Look at the First list of countries. Then look at the solution displayed to the side. Find the differences between the two lists.
-2. Use `justify-content` and `flex-direction` to make the list of countries on the left look like the ones on the right.
+2. Use `justify-content` and `flex-direction` to make the list of countries on the left look like the ones on the right.r
 
 _Hint: You can review how `justify-content` works in [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox)._
 

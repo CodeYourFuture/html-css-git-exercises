@@ -1,1 +1,30 @@
 /* Write your media queries and flexbox CSS below */
+
+@media screen and (min-width: 480px) {
+  .site-header__nav {
+    display: flex;
+    align-items: row;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .side-header {
+    display: flex;
+    align-items: row;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .site-header {
+    display: flex;
+    align-items: row;
+    justify-content: center;
+  }
+  .site-header :last-child {
+    justify-self: right;
+  }
+  .site-header :first-child {
+    justify-self: left;
+  }
+}

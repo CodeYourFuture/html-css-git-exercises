@@ -1,5 +1,7 @@
 .countries {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .countries--second .country {
@@ -7,3 +9,20 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  flex-direction: row;
+  justify-content: end;
+}
+.countries--second {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.countries--third {
+  flex-direction: column;
+  justify-content: end;
+}
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
