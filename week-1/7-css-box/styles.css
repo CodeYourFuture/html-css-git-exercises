@@ -1,6 +1,14 @@
 /* Try different box model properties below */
+.country {
+  padding: 15px;
+}
+
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+
+* {
+  border: 1px solid rgb(255, 208, 0);
 }
