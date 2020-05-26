@@ -7,6 +7,8 @@ In this exercise, you will use `align-self` and `align-items` to change the posi
 
 1. Look at the First list of countries. Then look at the solution displayed to the side. Find the differences between the two lists.
 2. Use `align-self` and `align-items` to make the list of countries on the left look like the ones on the right.
+3. You may use another flexbox properties learnt in previous exercises to apply insert a column for the `.countries--fourth` class.
+
 ---
 
 ![Example of align-items vs. align-self](/images/15/example.png)
