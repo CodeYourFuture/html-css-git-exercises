@@ -3,3 +3,119 @@
 }
 
 /* Add your own CSS code below */
+ul {
+  list-style-type: none;
+}
+
+.country {
+  
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 3px; 
+}
+
+.countries--first .country {
+  height: 50px;
+  width: 100px;
+}
+
+.countries--first {
+  flex-direction: row;
+  align-items: flex-end;
+  display: flex;
+  background-color: #1B4057;
+  height: 500px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  
+}
+
+
+.countries--second .country {
+  height: 50px;
+  width: 100px;
+  
+}
+
+.countries--second {
+  flex-direction: row-reverse;
+  align-items:flex-end ;
+  display: flex;
+  background-color: #1B4057;
+  height: 500px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  
+}
+
+.countries--third .country {
+  height: 50px;
+  width: 100px;
+  
+}
+
+.countries--third {
+  flex-direction: row;
+  align-items:flex-start ;
+  display: flex;
+  background-color: #1B4057;
+  height: 500px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  
+}
+
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth .country {
+  height: 50px;
+  width: 100px;
+  
+}
+
+.countries--fourth {
+  flex-direction: column;
+  align-items:flex-end ;
+  display: flex;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  
+}
+
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+
+.countries--fourth .country--laos {
+  align-self: center;
+}
+
+.countries--fifth .country {
+  height: 50px;
+  width: 100px;
+  
+}
+
+.countries--fifth {
+  flex-direction: column-reverse;
+  align-items:flex-end ;
+  display: flex;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  
+}
+
+.countries--fifth .country--uganda {
+  align-self: center;
+  order: 4;
+}
+
+.countries--fifth .country--laos {
+  order: 5;
+}
