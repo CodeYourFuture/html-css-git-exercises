@@ -7,3 +7,73 @@
 }
 
 /* Add your own CSS code below */
+.country {
+  
+  border: 1px solid grey;
+  background-color: white;
+  
+  
+}
+
+.countries--first .country {
+  height: 50px;
+  width: 100px;
+}
+
+.countries--first {
+  display: flex;
+  flex-direction: row;
+  background-color: #1B4057;
+  height: 50px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around ;
+}
+
+.countries--second{ 
+  display: flex;
+  flex-direction: row;
+  background-color: #1B4057;
+  height: 50px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-between ;
+}
+
+.countries--third .country {
+  height: 50px;
+ 
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around;
+
+}
+
+.countries--fourth .country {
+  height: 50px;
+ 
+}
+
+.countries--fourth {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B4057;
+  height: 500px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-between;
+
+}
+
+
+
+ul {
+  list-style-type: none;
+}
