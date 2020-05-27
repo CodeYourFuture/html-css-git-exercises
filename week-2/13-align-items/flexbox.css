@@ -2,3 +2,84 @@
   display: flex;
 }
 /* Add your own CSS code below */
+ul {
+  list-style-type: none;
+}
+
+.country {
+  
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 3px;
+  
+  
+}
+
+.countries--first .country {
+  height: 50px;
+  width: 100px;
+}
+
+.countries--first {
+  display: flex;
+  flex-direction: row;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around ;
+  align-items: center;
+}
+
+.countries--second .country {
+  height: 50px;
+  width: 100px;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: row;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around ;
+  align-items:flex-end ;
+}
+
+.countries--third .country {
+  height: 50px;
+ 
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around;
+  align-items: flex-end;
+
+}
+
+.countries--fourth .country {
+  height: 50px;
+ 
+}
+
+.countries--fourth {
+  display: flex;
+  flex-direction: column;
+  background-color: #1B4057;
+  height: 250px;
+  width: 500px;
+  border: 20px solid #1B4057 ;
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+
+
