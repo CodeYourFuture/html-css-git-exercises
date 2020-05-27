@@ -6,7 +6,8 @@ With `align-self` you move only one of the items.
 In this exercise, you will use `align-self` and `align-items` to change the position of the items. Follow the steps below to complete this exercise:
 
 1. Look at the First list of countries. Then look at the solution displayed to the side. Find the differences between the two lists.
-2. Use `align-self` and `align-items` to make the list of countries on the left look like the ones on the right.
+2. Use `align-self`, `align-items` and other flexbox properties you have learned to make the list of countries on the left look like the list on the right.
+
 ---
 
 ![Example of align-items vs. align-self](/images/15/example.png)
