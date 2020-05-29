@@ -12,30 +12,30 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
+      <header role="banner">
         <div class="site-header__title">Messages</div>
-      </div>
-      <div class="messages">
+      </header>
+      <main role="main">
         <div class="message">
           <div class="message__author">Won</div>
           <p class="message__content">Where should we meet later?</p>
-          <span class="message__time">Mar 25, 2018 7:25pm</span>
+          <span class="message__time"> <time datetime="2018-03-25">25 March </time> <time datetime="07:25">07:25pm </time> </span>
         </div>
         <div class="message">
           <div class="message__author">Luke</div>
           <p class="message__content">
             Let's meet at the iCafe in Merchant City. https://goo.gl/maps/aza4h9nUBhn
           </p>
-          <span class="message__time">Mar 25, 2018 7:35pm</span>
+          <span class="message__time"> <time datetime="2018-03-25">25 March </time> <time datetime="07:35">07:35pm </time> </span>
         </div>
         <div class="message">
           <div class="message__author">Won</div>
           <p class="message__content">
             Ok! https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif
           </p>
-          <span class="message__time">Mar 25, 2018 7:38pm</span>
+          <span class="message__time"> <time datetime="2018-03-25">25 March </time> <time datetime="07:38">07:38pm </time> </span>
         </div>
-      </div>
+      </main>
       <div id="result" class="result"></div>
     </div>
     <script defer src="/js/3-result.js"></script>
