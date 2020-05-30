@@ -26,22 +26,11 @@
   align-self: flex-end;
 }
 
-.countries--fourth .country--croatia {
-  align-self: flex-start;
-}
-
-.countries--fourth .country--ethiopia {
-  align-self: flex-start;
-}
-
-.countries--fourth .country--laos {
-  align-self: flex-start;
+.countries--fourth {
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .countries--fourth .country--uganda {
-  align-self: baseline;
-}
-
-.countries--fourth .country--brazil {
-  align-self: baseline;
+  align-self: center;
 }
