@@ -3,3 +3,71 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.countries--second {
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.countries--third {
+  align-items: flex-start;
+  justify-content: right;
+}
+
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries--fourth .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth .country--croatia {
+  align-self: flex-end;
+}
+
+.countries--fourth .country--uganda {
+  align-self: flex-end;
+}
+
+.countries--fifth {
+  flex-flow: column-reverse wrap;
+  justify-content: space-around;
+}
+
+.countries--fifth .country--brazil {
+  border: 2px solid red;
+  align-self: flex-end;
+}
+
+.countries--fifth .country--croatia {
+  border: 2px solid red;
+  align-self: flex-end;
+}
+
+.countries--fifth .country--ethiopia {
+  border: 2px solid red;
+  align-self: flex-end;
+}
+
+.countries--fifth .country--laos {
+  border: 2px solid red;
+  order: 1;
+  align-self: flex-end;
+}
+
+.countries--fifth .country--uganda {
+  align-self: center;
+}
