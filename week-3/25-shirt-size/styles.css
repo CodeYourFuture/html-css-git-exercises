@@ -1,1 +1,6 @@
 /* Add your CSS below */
+.screenreader {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  left: -2000px;
+}
