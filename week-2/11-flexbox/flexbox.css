@@ -1,1 +1,32 @@
 /* Add your own CSS code below */
+
+.countries {
+  display: flex;
+}
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* .countries--first {
+  justify-content: flex-end;
+}
+
+.countries--second {
+  justify-content: space-around;
+}
+
+.countries--third {
+  justify-content: flex-end;
+  flex-direction: column;
+} */
