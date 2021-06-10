@@ -17,16 +17,3 @@
   display: flex;
   flex-direction: column-reverse;
 }
-
-/* .countries--first {
-  justify-content: flex-end;
-}
-
-.countries--second {
-  justify-content: space-around;
-}
-
-.countries--third {
-  justify-content: flex-end;
-  flex-direction: column;
-} */
