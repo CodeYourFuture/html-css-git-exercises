@@ -4,3 +4,16 @@
   border-radius: 4px;
   background: #fff;
 }
+
+.countries {
+  background-color: blue;
+}
+.country {
+  border: 1px solid #4491db;
+  width: auto;
+  height: auto;
+  padding: 7px;
+  margin: auto;
+  line-height: 40px;
+  font-size: auto;
+}
