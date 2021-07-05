@@ -11,9 +11,9 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
+      <header class="site-header">
         <h1 class="site-header__title">C.Y.F</h1>
-        <div class="main-nav">
+        <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
               <a href="index.html">Latest</a>
@@ -25,7 +25,7 @@
               <a href="contact.html">Contact</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <form class="site-search" action="/search">
           <label for="search-input">
             Search
@@ -47,10 +47,10 @@
           </svg>
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </header>
 
       <main>
-        <div class="hero">
+        <article class="hero">
           <img class="hero__image" src="/images/29-hero.jpg" />
           <h2 class="hero__title">
             Duis aute irure dolor in reprehenderit in voluptate velit
@@ -59,14 +59,14 @@
           <p class="hero__time">
             <time datetime="2019-02-05">February 5, 2019</time>
           </p>
-        </div>
-        <div class="views">
+        </article>
+        <article class="views">
           <h2 class="views__title">View:</h2>
           <a class="view-list__item" href="#">Most Popular</a>
           <a class="view-list__item" href="#">Most Recent</a>
           <a class="views__all" href="#">View All</a>
-        </div>
-        <div class="items">
+        </article>
+        <article class="items">
           <div class="item">
             <img class="item__image" src="/images/29-item-1.jpg" />
             <h2 class="item__title">
@@ -97,13 +97,16 @@
               <time datetime="2019-01-19">January 19, 2019</time>
             </p>
           </div>
-        </div>
+        </article>
       </main>
 
       <footer>
         <p>
           <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a>
-          with ♥ for <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+
+          with<span class="red-heart"> ♥</span> for
+          <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+
         </p>
         <p>
           <svg
