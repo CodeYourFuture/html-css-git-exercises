@@ -4,3 +4,11 @@
   border-radius: 4px;
   background: #fff;
 }
+
+.country {
+  margin-bottom: 2px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  /*border: 1px solid red;*/
+}
