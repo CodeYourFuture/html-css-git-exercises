@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>29 - Combined Skills - HTML, CSS and Git Exercises</title>
+
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
     <link rel="stylesheet" href="/css/combined-skills.css" />
@@ -12,20 +13,24 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
-        <div class="site-header__title">C.Y.F</div>
-        <div class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="index.html">Latest</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="about.html">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+      <header class="site-header" role="banner">
+        <div class="site-header">
+          <h1 class="site-header__title">C.Y.F</h1>
+          <nav class="site-header__nav">
+            <div class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__list-item">
+                  <a href="index.html">Latest</a>
+                </li>
+                <li class="main-nav__list-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="main-nav__list-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
         <form class="site-search" action="/search">
           <label for="search-input">
@@ -48,22 +53,45 @@
           </svg>
           <button type="submit">Submit</button>
         </form>
-      </div>
-
+      </header>
       <main>
         <h1>Contact Us</h1>
         <p>Send us an email if you would like to contact us.</p>
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required="required" />
           </div>
           <div class="contact-form__field">
-            <textarea
-              name="message"
-              placeholder="Your message should not be longer than 200 words."
-            ></textarea>
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" required="required" />
           </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
+            <textarea
+              input="message"
+              name="message"
+              id="message"
+              required="required"
+              placeholder="Your message should not be longer than 200 words."
+            >
+            </textarea>
+          </div>
+          <div class="contact-form__field">
+            <fieldset>
+              <legend>which branch are you interested in?</legend>
+              <p>
+                <label> <input type="radio" name="branch" value="Gl" />Glasgow </label>
+              </p>
+              <p>
+                <label> <input type="radio" name="branch" value="Man" />Manchester </label>
+              </p>
+              <p>
+                <label> <input type="radio" name="branch" value="London" />London </label>
+              </p>
+            </fieldset>
+          </div>
+
           <button type="submit">Send</button>
         </form>
       </main>
@@ -71,7 +99,8 @@
       <footer>
         <p>
           <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a>
-          with ♥ for <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+          with <span style="color: red">♥</span> for
+          <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
         </p>
         <p>
           <svg

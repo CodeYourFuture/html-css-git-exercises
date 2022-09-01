@@ -11,20 +11,24 @@
 
   <body>
     <div class="site-wrapper">
-      <div class="site-header">
-        <h1 class="site-header__title">C.Y.F</h1>
-        <div class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="index.html">Latest</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="about.html">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+      <header class="site-header" role="banner">
+        <div class="site-header">
+          <h1 class="site-header__title">C.Y.F</h1>
+          <nav class="site-header__nav">
+            <div class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__list-item">
+                  <a href="index.html">Latest</a>
+                </li>
+                <li class="main-nav__list-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="main-nav__list-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
         <form class="site-search" action="/search">
           <label for="search-input">
@@ -47,8 +51,7 @@
           </svg>
           <button type="submit">Submit</button>
         </form>
-      </div>
-
+      </header>
       <main class="site-content">
         <article class="main-article">
           <h1>About C.Y.F</h1>
@@ -120,7 +123,9 @@
       <footer>
         <p>
           <a href="https://github.com/CodeYourFuture/html-css-git-exercises">Built</a>
-          with ♥ for <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
+
+          with <span style="color:red">♥</span>for
+          <a href="https://codeyourfuture.io/">CodeYourFuture</a>.
         </p>
         <p>
           <svg
