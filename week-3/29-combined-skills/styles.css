@@ -1,1 +1,51 @@
 /* Add your own CSS code below */
+span.red {
+  color: #c85308;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 50px;
+  }
+}
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .view-list__item {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 767px) {
+  a.views__all {
+    margin-left: auto;
+    justify-self: end;
+  }
+}
+.main-article {
+  max-width: 50em;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
